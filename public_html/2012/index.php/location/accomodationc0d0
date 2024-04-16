@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! 1.5 - Open Source Content Management" -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Accomodation</title>
+		<description>Geomundus</description>
+		<link>http://www.geomundus.org/index.php/location/accomodation</link>
+		<lastBuildDate>Wed, 05 Jun 2013 11:07:41 +0000</lastBuildDate>
+		<generator>Joomla! 1.5 - Open Source Content Management</generator>
+		<language>en-gb</language>
+		<item>
+			<title>Accommodation</title>
+			<link>http://www.geomundus.org/index.php/location/accomodation/25-accomodation</link>
+			<guid>http://www.geomundus.org/index.php/location/accomodation/25-accomodation</guid>
+			<description><![CDATA[<p>
+	To view or download information about accommodation in Lisbon, please click <a href="http://geomundus.org/media/location_acomodation.pdf" target="_blank">here</a>.</p>]]></description>
+			<author>rasgurth@gmail.com (Diego Gargallo Tarín)</author>
+			<category>Accomodation</category>
+			<pubDate>Tue, 10 Jul 2012 20:55:28 +0000</pubDate>
+		</item>
+	</channel>
+</rss>

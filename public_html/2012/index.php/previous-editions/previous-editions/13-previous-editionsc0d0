@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! 1.5 - Open Source Content Management" -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Previous Editions</title>
+		<description>Geomundus</description>
+		<link>http://www.geomundus.org/index.php/previous-editions/previous-editions/13</link>
+		<lastBuildDate>Wed, 05 Jun 2013 11:07:09 +0000</lastBuildDate>
+		<generator>Joomla! 1.5 - Open Source Content Management</generator>
+		<language>en-gb</language>
+		<managingEditor>info@geomundus.org (GeoMundus.org)</managingEditor>
+		<item>
+			<title>GeoMundus 2011</title>
+			<link>http://www.geomundus.org/index.php/previous-editions/previous-editions/1</link>
+			<guid>http://www.geomundus.org/index.php/previous-editions/previous-editions/1</guid>
+			<description><![CDATA[]]></description>
+			<category>Weblinks</category>
+			<pubDate>Fri, 06 Jul 2012 15:53:03 +0000</pubDate>
+		</item>
+	</channel>
+</rss>

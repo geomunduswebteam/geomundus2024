@@ -1,0 +1,88 @@
+#DENY FROM ALL
+#ALLOW FROM .uni-muenster.de
+ALLOW FROM ALL
+
+<Files wp-login.php>
+Order Deny,Allow
+Deny from all
+Allow from all
+</Files>
+<IfModule mod_security.c>
+SecFilterEngine Off
+SecFilterScanPOST Off
+</IfModule>
+
+# Kirby .htaccess
+#RewriteEngine On
+
+#RewriteCond %{REQUEST_FILENAME} !-d
+#DirectoryIndex 2014/home.php
+#RewriteCond %{REQUEST_FILENAME}\.php -f
+#RewriteRule ^(.*)$ /subdirectory/$1 
+#RewriteRule ^(.*)$ $1.php
+# RewriteRule ^2013/(.*) /2013/index.php.html [R=301,L]
+
+# rewrite rules
+<IfModule mod_rewrite.c>
+
+# enable awesome urls. i.e.: 
+# http://yourdomain.com/about-us/team
+RewriteEngine on
+
+
+# make sure to set the RewriteBase correctly
+# if you are running the site in a subfolder.
+# Otherwise links or the entire site will break.
+# 
+# If your homepage is http://yourdomain.com/mysite
+# Set the RewriteBase to:
+# 
+# RewriteBase /mysite
+# 
+RewriteBase /
+DirectoryIndex index.html
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule .*[^/]$ %{REQUEST_URI}/ [L,R=301]
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.+)/$ $1.html [L]
+
+
+#RewriteRule ^2013/(.*) /2013/index.php.html [R=301,L]
+# block text files in the content folder from being accessed directly
+RewriteRule ^content/(.*)\.(txt|md|mdown)$ error [R=301,L]
+
+# block all files in the site folder from being accessed directly
+RewriteRule ^site/(.*) error [R=301,L]
+
+# block all files in the kirby folder from being accessed directly
+RewriteRule ^kirby/(.*) error [R=301,L]
+
+# leave robots.txt alone for search engines
+RewriteRule ^robots.txt robots.txt [L]
+
+# make panel links work
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^panel/(.*) panel/index.php [L]
+
+# make site links work
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.*) index.php [L]
+
+#RewriteRule ^(.*)$ /2014/$1 
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^([^\.]+)$ $1.php [NC,L]
+#DirectoryIndex 2014/home.php index.html index.php.html
+
+
+ 
+</IfModule>
+
+
+# Additional recommended values
+# Remove comments for those you want to use. 
+# 
+# AddDefaultCharset UTF-8
+#
+# php_flag short_open_tag on 

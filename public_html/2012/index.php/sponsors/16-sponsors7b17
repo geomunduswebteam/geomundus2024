@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! 1.5 - Open Source Content Management" -->
+<feed xmlns="http://www.w3.org/2005/Atom"  xml:lang="en-gb">
+	<title type="text">Sponsors</title>
+	<subtitle type="text">Geomundus</subtitle>
+	<link rel="alternate" type="text/html" href="http://www.geomundus.org"/>
+	<id>http://www.geomundus.org/index.php/sponsors/16-sponsors</id>
+	<updated>2013-06-05T11:07:42Z</updated>
+	<author>
+		<name>GeoMundus.org</name>
+		<email>info@geomundus.org</email>
+	</author>
+	<generator uri="http://joomla.org" version="1.5">Joomla! 1.5 - Open Source Content Management</generator>
+<link rel="self" type="application/atom+xml" href="http://www.geomundus.org/index.php/sponsors/16-sponsors?format=feed&amp;type=atom" />
+	<entry>
+		<title>European Commission’s Erasmus Mundus programme</title>
+		<link rel="alternate" type="text/html" href="http://www.geomundus.org/index.php/sponsors/4"/>
+		<published>2012-06-19T08:47:17Z</published>
+		<updated>2012-06-19T08:47:17Z</updated>
+		<id>http://www.geomundus.org/index.php/sponsors/4</id>
+	</entry>
+	<entry>
+		<title>EMA</title>
+		<link rel="alternate" type="text/html" href="http://www.geomundus.org/index.php/sponsors/7"/>
+		<published>2012-07-05T12:42:43Z</published>
+		<updated>2012-07-05T12:42:43Z</updated>
+		<id>http://www.geomundus.org/index.php/sponsors/7</id>
+		<summary type="html">Erasmus Mundus Students and Alumni Association</summary>
+		<content type="html">Erasmus Mundus Students and Alumni Association</content>
+	</entry>
+	<entry>
+		<title>Master GeoTech</title>
+		<link rel="alternate" type="text/html" href="http://www.geomundus.org/index.php/sponsors/13"/>
+		<published>2012-07-18T07:00:19Z</published>
+		<updated>2012-07-18T07:00:19Z</updated>
+		<id>http://www.geomundus.org/index.php/sponsors/13</id>
+		<summary type="html">Main portal of the Master of Science in Geospatial Technologies</summary>
+		<content type="html">Main portal of the Master of Science in Geospatial Technologies</content>
+	</entry>
+	<entry>
+		<title>Universitat Jaume I</title>
+		<link rel="alternate" type="text/html" href="http://www.geomundus.org/index.php/sponsors/6"/>
+		<published>2012-07-13T13:35:38Z</published>
+		<updated>2012-07-13T13:35:38Z</updated>
+		<id>http://www.geomundus.org/index.php/sponsors/6</id>
+		<summary type="html">Main site of Universitat Jaume I (UJI) Castellon (Spain)</summary>
+		<content type="html">Main site of Universitat Jaume I (UJI) Castellon (Spain)</content>
+	</entry>
+	<entry>
+		<title>INIT</title>
+		<link rel="alternate" type="text/html" href="http://www.geomundus.org/index.php/sponsors/8"/>
+		<published>2012-07-13T13:34:41Z</published>
+		<updated>2012-07-13T13:34:41Z</updated>
+		<id>http://www.geomundus.org/index.php/sponsors/8</id>
+		<summary type="html">Institute of New Imaging Tecnologies
+Universitat Jaume I</summary>
+		<content type="html">Institute of New Imaging Tecnologies
+Universitat Jaume I</content>
+	</entry>
+	<entry>
+		<title>Westfälische Wilhelms-Universität</title>
+		<link rel="alternate" type="text/html" href="http://www.geomundus.org/index.php/sponsors/14"/>
+		<published>2012-07-13T13:37:37Z</published>
+		<updated>2012-07-13T13:37:37Z</updated>
+		<id>http://www.geomundus.org/index.php/sponsors/14</id>
+		<summary type="html">Main portal of the Westfälische Wilhelms-Universität Münster, Germany</summary>
+		<content type="html">Main portal of the Westfälische Wilhelms-Universität Münster, Germany</content>
+	</entry>
+	<entry>
+		<title>IFGI</title>
+		<link rel="alternate" type="text/html" href="http://www.geomundus.org/index.php/sponsors/5"/>
+		<published>2012-06-19T08:49:16Z</published>
+		<updated>2012-06-19T08:49:16Z</updated>
+		<id>http://www.geomundus.org/index.php/sponsors/5</id>
+		<summary type="html">Institute for GeoInformatics, WWU Münster (Germany)</summary>
+		<content type="html">Institute for GeoInformatics, WWU Münster (Germany)</content>
+	</entry>
+	<entry>
+		<title>ISEGI</title>
+		<link rel="alternate" type="text/html" href="http://www.geomundus.org/index.php/sponsors/9"/>
+		<published>2012-07-13T13:32:06Z</published>
+		<updated>2012-07-13T13:32:06Z</updated>
+		<id>http://www.geomundus.org/index.php/sponsors/9</id>
+		<summary type="html">Instituto Superior de Estatística y Gestão de la Informação
+Universidade Nova de Lisboa</summary>
+		<content type="html">Instituto Superior de Estatística y Gestão de la Informação
+Universidade Nova de Lisboa</content>
+	</entry>
+	<entry>
+		<title>Geomundus page in EMA</title>
+		<link rel="alternate" type="text/html" href="http://www.geomundus.org/index.php/sponsors/16"/>
+		<published>2012-07-25T20:37:01Z</published>
+		<updated>2012-07-25T20:37:01Z</updated>
+		<id>http://www.geomundus.org/index.php/sponsors/16</id>
+	</entry>
+	<entry>
+		<title>Innovatig</title>
+		<link rel="alternate" type="text/html" href="http://www.geomundus.org/index.php/sponsors/17"/>
+		<published>2012-10-10T06:46:15Z</published>
+		<updated>2012-10-10T06:46:15Z</updated>
+		<id>http://www.geomundus.org/index.php/sponsors/17</id>
+		<summary type="html">Sponsor GeoMundus 2012
+Innovación en Tecnologías de Información Geográfica
+</summary>
+		<content type="html">Sponsor GeoMundus 2012
+Innovación en Tecnologías de Información Geográfica
+</content>
+	</entry>
+</feed>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! 1.5 - Open Source Content Management" -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Participants</title>
+		<description>Geomundus</description>
+		<link>http://www.geomundus.org/index.php/program/participants</link>
+		<lastBuildDate>Wed, 05 Jun 2013 11:07:27 +0000</lastBuildDate>
+		<generator>Joomla! 1.5 - Open Source Content Management</generator>
+		<language>en-gb</language>
+		<item>
+			<title>Participants</title>
+			<link>http://www.geomundus.org/index.php/program/participants/26-participants</link>
+			<guid>http://www.geomundus.org/index.php/program/participants/26-participants</guid>
+			<description><![CDATA[<p>
+	&nbsp;</p>
+<p style="margin-bottom: 0cm">
+	This conference is organized by the students of the <a href="http://geotech.uni-muenster.de/" target="_blank"><b>Master of Science in Geospatial Technologies</b></a>, from</p>
+<p style="margin-bottom: 0cm">
+	The <a href="http://www.isegi.unl.pt/" target="_blank"><b>Institute Superior of Statistics and Information (ISEGI)</b></a>, Lisbon, Portugal,</p>
+<p style="margin-bottom: 0cm">
+	The <a href="http://www.init.uji.es/" target="_blank"><b>Institute for New Imaging Technologies (INIT)</b></a>, Universitat Jaume I (UJI),Castellon, Spain and</p>
+<p style="margin-bottom: 0cm">
+	The<b> <a href="http://ifgi.uni-muenster.de/" target="_blank">Institute for Geoinformatics (IFGI)</a></b>, University of Munster and made possible by</p>
+<p style="margin-bottom: 0cm">
+	The <b><a href="http://www.em-a.eu/" target="_blank">Erasmus Mundus Association (EMA)</a>.</b></p>]]></description>
+			<author>rasgurth@gmail.com (Diego Gargallo Tarín)</author>
+			<category>Participants</category>
+			<pubDate>Tue, 10 Jul 2012 21:01:38 +0000</pubDate>
+		</item>
+	</channel>
+</rss>

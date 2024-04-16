@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! 1.5 - Open Source Content Management" -->
+<feed xmlns="http://www.w3.org/2005/Atom"  xml:lang="en-gb">
+	<title type="text">Speakers</title>
+	<subtitle type="text">Geomundus</subtitle>
+	<link rel="alternate" type="text/html" href="http://www.geomundus.org"/>
+	<id>http://www.geomundus.org/index.php/program/keynote-speakers</id>
+	<updated>2013-06-05T11:07:22Z</updated>
+	<generator uri="http://joomla.org" version="1.5">Joomla! 1.5 - Open Source Content Management</generator>
+<link rel="self" type="application/atom+xml" href="http://www.geomundus.org/index.php/program/keynote-speakers?format=feed&amp;type=atom" />
+	<entry>
+		<title>Prof. Dr. Mike Jackson - Keynote Speaker 1</title>
+		<link rel="alternate" type="text/html" href="http://www.geomundus.org/index.php/program/keynote-speakers/17-professor-mike-jackson"/>
+		<published>2012-07-05T22:08:48Z</published>
+		<updated>2012-07-05T22:08:48Z</updated>
+		<id>http://www.geomundus.org/index.php/program/keynote-speakers/17-professor-mike-jackson</id>
+		<author>
+			<name>Diego Gargallo Tarín</name>
+		<email>rasgurth@gmail.com</email>
+		</author>
+		<summary type="html">&lt;h3 class=&quot;western&quot; style=&quot;page-break-before: always; &quot;&gt;&lt;span style=&quot;color: #222222;&quot;&gt;Expertise Summary&lt;/span&gt;&lt;/h3&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;&lt;img src=&quot;http://www.geomundus.org/media/kunena/attachments/70/mikeJackson.jpg&quot; border=&quot;0&quot; alt=&quot;Prof. Dr. Mike Jackson&quot; style=&quot;width: 117px; height: 150px; border-width: 0px; border-style: solid; float: left; margin: 3px 5px;&quot; /&gt;Professor of Geospatial Science and Director of the Centre for Geospatial Science. 30 Years commercial, government and academic experience in spatial data infrastructures (SDI), location-based services (LBS), geospatial intelligence, geographic information systems (GIS), computer-based mapping, and remote sensing. Appointed to Chair of Geospatial Science in 2005. Previously Director of the Space Division at QinetiQ. Head of Location Platform at Hutchison 3G (&quot;3&quot;) between 2000 and 2002 with design responsibility for the 3-G location-based services for Hutchison Wampoa's global telecommunications companies. Earlier he was CEO of geospatial software developer Laser-Scan Holdings plc. and he held research/management posts at the Natural Environment Research Council (during which time he was a Principal Investigator for NASA) , the Atomic Energy Research Establishment at Harwell and the Department of Environment. Mike has a 1st in Geography, a PhD (Civil Engineering) from Manchester University and an honorary doctorate of Technology from Kingston University. He is a non-executive director of the Open Geospatial Consortium Inc (OGC).&lt;/p&gt;
+&lt;h3 class=&quot;western&quot;&gt;&lt;span style=&quot;color: #222222;&quot;&gt;Research Summary&lt;/span&gt;&lt;/h3&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Spatial data Infrastructures, LBS, Gespatial Intelligence and geospatial interoperability.&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Current and recent research contracts (:&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;DSCENT (EPSRC) 2007 -2010&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;GIS4EU (Eu - eContentPlus) 2007 -2010&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;EuroGEOSS (EU FP7) 2009 - 2012&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;SWIMA (TSB) 2008 - 2010&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Ordnance Survey Data Management Futures 2008 - 2011&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Digital Economy Hub (EPSRC) 2009 - 2014&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Towards Pervasive Media (EPSRC) 2009 - 2011&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;eSoter (EU FP7) 2008 - 2012&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;SPACER (JISC) 2009 - 2010&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;ELOgEO 2010-2011&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;THE ISSUE 2011 - 2014&lt;/p&gt;
+&lt;h3 class=&quot;western&quot;&gt;&lt;span style=&quot;color: #222222;&quot;&gt;Selected Publications&lt;/span&gt;&lt;/h3&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;LEIBOVICI, D.G. BASTIN, L AND JACKSON, M, 2011. Higher-Order Co-Occurrences for Exploratory Point Pattern Analysis and Decision Tree Clustering on Spatial Data Computers &amp; Geosciences. 37.(3), 382-389.&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;LEIBOVICI, D.G. AND JACKSON, M., 2011. Multi-scale Integration for Spatio-Temporal Ecoregioning Delineation International Journal of Image and Data Fusion. 2(2), 105-119&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;JACKSON, M.J, HOBONA, G, BERNARD, L and BRAUNER, J. AND HIGGINS, C., 2011. The role and development of a persistent interoperability test bed for geosciences research.. In: SINHA, A. K and ARCTUR, D. JACKSON, I. AND GUNDERSEN, L., eds., Societal Challenges and GeoInformatics Special Paper 482. Geological Society of America. 1-8 (In Press.)&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm;&quot; align=&quot;JUSTIFY&quot;&gt; &lt;/p&gt;</summary>
+		<content type="html">&lt;h3 class=&quot;western&quot; style=&quot;page-break-before: always; &quot;&gt;&lt;span style=&quot;color: #222222;&quot;&gt;Expertise Summary&lt;/span&gt;&lt;/h3&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;&lt;img src=&quot;http://www.geomundus.org/media/kunena/attachments/70/mikeJackson.jpg&quot; border=&quot;0&quot; alt=&quot;Prof. Dr. Mike Jackson&quot; style=&quot;width: 117px; height: 150px; border-width: 0px; border-style: solid; float: left; margin: 3px 5px;&quot; /&gt;Professor of Geospatial Science and Director of the Centre for Geospatial Science. 30 Years commercial, government and academic experience in spatial data infrastructures (SDI), location-based services (LBS), geospatial intelligence, geographic information systems (GIS), computer-based mapping, and remote sensing. Appointed to Chair of Geospatial Science in 2005. Previously Director of the Space Division at QinetiQ. Head of Location Platform at Hutchison 3G (&quot;3&quot;) between 2000 and 2002 with design responsibility for the 3-G location-based services for Hutchison Wampoa's global telecommunications companies. Earlier he was CEO of geospatial software developer Laser-Scan Holdings plc. and he held research/management posts at the Natural Environment Research Council (during which time he was a Principal Investigator for NASA) , the Atomic Energy Research Establishment at Harwell and the Department of Environment. Mike has a 1st in Geography, a PhD (Civil Engineering) from Manchester University and an honorary doctorate of Technology from Kingston University. He is a non-executive director of the Open Geospatial Consortium Inc (OGC).&lt;/p&gt;
+&lt;h3 class=&quot;western&quot;&gt;&lt;span style=&quot;color: #222222;&quot;&gt;Research Summary&lt;/span&gt;&lt;/h3&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Spatial data Infrastructures, LBS, Gespatial Intelligence and geospatial interoperability.&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Current and recent research contracts (:&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;DSCENT (EPSRC) 2007 -2010&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;GIS4EU (Eu - eContentPlus) 2007 -2010&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;EuroGEOSS (EU FP7) 2009 - 2012&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;SWIMA (TSB) 2008 - 2010&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Ordnance Survey Data Management Futures 2008 - 2011&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Digital Economy Hub (EPSRC) 2009 - 2014&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Towards Pervasive Media (EPSRC) 2009 - 2011&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;eSoter (EU FP7) 2008 - 2012&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;SPACER (JISC) 2009 - 2010&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;ELOgEO 2010-2011&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;THE ISSUE 2011 - 2014&lt;/p&gt;
+&lt;h3 class=&quot;western&quot;&gt;&lt;span style=&quot;color: #222222;&quot;&gt;Selected Publications&lt;/span&gt;&lt;/h3&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;LEIBOVICI, D.G. BASTIN, L AND JACKSON, M, 2011. Higher-Order Co-Occurrences for Exploratory Point Pattern Analysis and Decision Tree Clustering on Spatial Data Computers &amp; Geosciences. 37.(3), 382-389.&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;LEIBOVICI, D.G. AND JACKSON, M., 2011. Multi-scale Integration for Spatio-Temporal Ecoregioning Delineation International Journal of Image and Data Fusion. 2(2), 105-119&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;JACKSON, M.J, HOBONA, G, BERNARD, L and BRAUNER, J. AND HIGGINS, C., 2011. The role and development of a persistent interoperability test bed for geosciences research.. In: SINHA, A. K and ARCTUR, D. JACKSON, I. AND GUNDERSEN, L., eds., Societal Challenges and GeoInformatics Special Paper 482. Geological Society of America. 1-8 (In Press.)&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm;&quot; align=&quot;JUSTIFY&quot;&gt; &lt;/p&gt;</content>
+	</entry>
+	<entry>
+		<title>Prof. Mario Caetano - Keynote Speaker 2</title>
+		<link rel="alternate" type="text/html" href="http://www.geomundus.org/index.php/program/keynote-speakers/7-keynote-speaker-3"/>
+		<published>2012-06-19T11:24:26Z</published>
+		<updated>2012-06-19T11:24:26Z</updated>
+		<id>http://www.geomundus.org/index.php/program/keynote-speakers/7-keynote-speaker-3</id>
+		<author>
+			<name>Luis Bausá López</name>
+		<email>al087714@uji.es</email>
+		</author>
+		<summary type="html">&lt;h3&gt;Expertise Summary&lt;/h3&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Mário Caetano is a Principal Researcher in Fundação para a Ciência e Tecnologia (Foundation for Science and Technolgy) where he is a scientific advisor for Earth Observation matters of the President. He is also an Associate Professor at Instituto Superior de Estatística e Gestão de Informação, Universidade Nova de Lisboa (ISEGI/UNL). Mário Caetano has a degree in Forest Engineering from the Lisboa University of Technology (1989), a MSc in Geography from the University of California, Santa Barbara (1995), and a Ph.D. in Forestry (2000) from the Lisboa University of Technology. Research interests include the use of remote sensing data for land cover land use (LCLU) characterisation and environment monitoring. He is particularly interested on satellite image classification algorithms, spatial and temporal pattern analysis and on accuracy assessment strategies. He is the author of more than 120 publications in books, journals and conference proceedings. Mário Caetano has acted as referee in many scientific journals related to his research area.&lt;/p&gt;
+&lt;h3&gt;Research Summary&lt;/h3&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Research interests include the use of remote sensing data for land cover land use (LCLU) characterisation and environmental monitoring. He is particularly interested on satellite image classification algorithms, spatial and temporal pattern analysis and on accuracy assessment strategies.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;He has coordinated and participated in many research and development projects funded by National Science Foundation (FCT), European Commission (EC) and European Space Agency (ESA), such as:&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;LANDEO (User driven land cover characterisation for multi-scale monitoring using multi-sensor earth observation) (PCDTE/MGS/49969/2003);&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;AGRO130 (Using satellite images for automatic mapping of forest clear cuts and new plantations);&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;APERTURE (environmentAl tyPological spacE mappeR facilitating the implemenTation of eURopean legislation) (ENV4-CT94-0437);&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;AMECIS (Multi-strategic approach for satellite image processing) (DGOT);&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;DREU (Assessment of the dynamics of the Área Metropolitana de Lisboa using remote sensing) (RS/12/031/MF/SW);&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;PREMFIRE (Prevention and Mitigation of Fire Hazard in Portugal) (AO/1-3880/01/l-SB);&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;STORMS (Silvicultural Srategies For Predicting Damage To Forest From Wind, Fire and Snow) (CT94-2392);&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;BACCHUS (Methodological Approach for vineyard inventory and management) (EVG1-CT-2002-00075).&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;He was also the coordinator of land cover mapping projects using satellite imagery, e.g. CORINE Land Cover 2000 (CLC2000) for the European Environment Agency (EEA), Monitoring Urban Dynamics (MURBANDY) for Porto, Setúbal and Algarve for the European Commission.&lt;/p&gt;
+&lt;h3&gt;Selected Publications&lt;/h3&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Caetano, M., and M. Painho (eds), 2006. Proceedings of the 7th International Symposium on Spatial Accuracy Assessment Natural Resources and Environmental Sciences, 5 - 7 July 2006, Instituto Geográfico Português, Lisboa, 908 p.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Painho, M., e M. Caetano, 2006. Cartografia de Ocupação do Solo, Portugal Continental, 1985-2000, Instituto do Ambiente, Amadora, 56 p.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Caetano, M., H. Carrão, e M. Painho, 2005. Alterações da ocupação do solo em Portugal continental: 1985-2000, Instituto do Ambiente, Amadora, 40 p.&lt;/p&gt;</summary>
+		<content type="html">&lt;h3&gt;Expertise Summary&lt;/h3&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Mário Caetano is a Principal Researcher in Fundação para a Ciência e Tecnologia (Foundation for Science and Technolgy) where he is a scientific advisor for Earth Observation matters of the President. He is also an Associate Professor at Instituto Superior de Estatística e Gestão de Informação, Universidade Nova de Lisboa (ISEGI/UNL). Mário Caetano has a degree in Forest Engineering from the Lisboa University of Technology (1989), a MSc in Geography from the University of California, Santa Barbara (1995), and a Ph.D. in Forestry (2000) from the Lisboa University of Technology. Research interests include the use of remote sensing data for land cover land use (LCLU) characterisation and environment monitoring. He is particularly interested on satellite image classification algorithms, spatial and temporal pattern analysis and on accuracy assessment strategies. He is the author of more than 120 publications in books, journals and conference proceedings. Mário Caetano has acted as referee in many scientific journals related to his research area.&lt;/p&gt;
+&lt;h3&gt;Research Summary&lt;/h3&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Research interests include the use of remote sensing data for land cover land use (LCLU) characterisation and environmental monitoring. He is particularly interested on satellite image classification algorithms, spatial and temporal pattern analysis and on accuracy assessment strategies.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;He has coordinated and participated in many research and development projects funded by National Science Foundation (FCT), European Commission (EC) and European Space Agency (ESA), such as:&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;LANDEO (User driven land cover characterisation for multi-scale monitoring using multi-sensor earth observation) (PCDTE/MGS/49969/2003);&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;AGRO130 (Using satellite images for automatic mapping of forest clear cuts and new plantations);&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;APERTURE (environmentAl tyPological spacE mappeR facilitating the implemenTation of eURopean legislation) (ENV4-CT94-0437);&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;AMECIS (Multi-strategic approach for satellite image processing) (DGOT);&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;DREU (Assessment of the dynamics of the Área Metropolitana de Lisboa using remote sensing) (RS/12/031/MF/SW);&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;PREMFIRE (Prevention and Mitigation of Fire Hazard in Portugal) (AO/1-3880/01/l-SB);&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;STORMS (Silvicultural Srategies For Predicting Damage To Forest From Wind, Fire and Snow) (CT94-2392);&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;BACCHUS (Methodological Approach for vineyard inventory and management) (EVG1-CT-2002-00075).&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;He was also the coordinator of land cover mapping projects using satellite imagery, e.g. CORINE Land Cover 2000 (CLC2000) for the European Environment Agency (EEA), Monitoring Urban Dynamics (MURBANDY) for Porto, Setúbal and Algarve for the European Commission.&lt;/p&gt;
+&lt;h3&gt;Selected Publications&lt;/h3&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Caetano, M., and M. Painho (eds), 2006. Proceedings of the 7th International Symposium on Spatial Accuracy Assessment Natural Resources and Environmental Sciences, 5 - 7 July 2006, Instituto Geográfico Português, Lisboa, 908 p.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Painho, M., e M. Caetano, 2006. Cartografia de Ocupação do Solo, Portugal Continental, 1985-2000, Instituto do Ambiente, Amadora, 56 p.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Caetano, M., H. Carrão, e M. Painho, 2005. Alterações da ocupação do solo em Portugal continental: 1985-2000, Instituto do Ambiente, Amadora, 40 p.&lt;/p&gt;</content>
+	</entry>
+	<entry>
+		<title>Prof. Dr. Martin Raubal - Keynote Speaker 3</title>
+		<link rel="alternate" type="text/html" href="http://www.geomundus.org/index.php/program/keynote-speakers/6-keynote-speaker-2"/>
+		<published>2012-06-19T11:24:26Z</published>
+		<updated>2012-06-19T11:24:26Z</updated>
+		<id>http://www.geomundus.org/index.php/program/keynote-speakers/6-keynote-speaker-2</id>
+		<author>
+			<name>Luis Bausá López</name>
+		<email>al087714@uji.es</email>
+		</author>
+		<summary type="html">&lt;h3&gt;Expertise Summary&lt;/h3&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;img src=&quot;http://www.geomundus.org/media/kunena/attachments/70/MartinRaubal.jpg&quot; border=&quot;0&quot; style=&quot;width: 117px; height: 150px; float: left; margin: 3px 5px;&quot; /&gt;Martin Raubal is Professor of Geoinformation-Engineering at the Swiss  Federal Institute of Technology Zurich. He was previously Associate  Professor and Vice-Chair at the Department of Geography, University of  California, Santa Barbara, and Junior Professor at the University of  Münster. Martin received his Ph.D. in Geoinformation from Vienna  University of Technology in 2001 with honors. He holds a M.S. in Spatial  Information Science and Engineering from the University of Maine and a  Dipl.-Ing. in Surveying Engineering from Vienna University of  Technology. Martin’s research interests lie in the areas of mobile GIS  &amp; LBS, spatial cognitive engineering, mobile eye-tracking, and GIS  for renewable energy analysis. His teaching includes courses on GIS,  cartography, geovisualization, location-based services, temporal aspects  of GIS, spatial cognition and wayfinding, and research methods. Martin  is currently a council member of AGILE (Association of Geographic  Information Laboratories in Europe) and was a board member of UCGIS  (University Consortium for Geographic Information Science) from 2008-11.  He serves on the editorial boards of Transactions in GIS, Journal of  Location Based Services, Journal of Spatial Information Science, and  Geography Compass. He has authored and co-authored more than 90 books  and research papers published in refereed journals and conference  proceedings.&lt;/p&gt;
+&lt;h3&gt;Professional Appointments&lt;/h3&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Apr. 2011 – Full Professor for Geoinformation-Engineering Swiss Federal Institute of Technology, ETH Zurich, Switzerland&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Oct. 2011 – Member of the Energy Science Center, ETH Zurich&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Mar. 2011 – Adjunct Professor Department of Geography University of California, Santa Barbara, U.S.A.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;2008 – 2011 Associate Professor Department of Geography University of California, Santa Barbara, U.S.A.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;2008 – Affiliated faculty member Department of Computer Science University of California, Santa Barbara, U.S.A.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;2007 – Faculty member of Cognitive Science Program University of California, Santa Barbara, U.S.A.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;2006 – 2008 Assistant Professor Department of Geography University of California, Santa Barbara, U.S.A.&lt;/p&gt;
+&lt;h3&gt;Selected Publications&lt;/h3&gt;
+&lt;p&gt;Y. Yuan, M. Raubal, and Y. Liu (2012) Correlating Mobile Phone Usage and  Travel Behavior - A Case Study of Harbin, China. Computers, Environment  and Urban Systems. 36(2): 118-130.&lt;br /&gt;&lt;br /&gt;M. Raubal (2011) Cogito ergo  mobilis sum: The impact of Location-Based Services on our mobile lives.  in: T. Nyerges, H. Couclelis, and R. McMaster (Eds.), The SAGE Handbook  of GIS and Society. pp. 159-173, Sage Publications, Los Angeles, London.&lt;br /&gt;&lt;br /&gt;M. Raubal (2009) Cognitive Engineering for Geographic Information Science. Geography Compass 3(3): 1087–1104.&lt;br /&gt;&lt;br /&gt;M.  Raubal, S. Winter, S. Teßmann, and C. Gaisbauer (2007) Time geography  for ad-hoc shared-ride trip planning in mobile geosensor networks. ISPRS  Journal of Photogrammetry and Remote Sensing. 62(5): 366-381.&lt;br /&gt;&lt;br /&gt;M.  Raubal and S. Winter (2002) Enriching Wayfinding Instructions with  Local Landmarks. in: M. Egenhofer and D. Mark (Eds.), Geographic  Information Science - Second International Conference, GIScience 2002,  Boulder, CO, USA, September 2002. Lecture Notes in Computer Science  2478, pp. 243-259, Springer, Berlin.&lt;/p&gt;</summary>
+		<content type="html">&lt;h3&gt;Expertise Summary&lt;/h3&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;img src=&quot;http://www.geomundus.org/media/kunena/attachments/70/MartinRaubal.jpg&quot; border=&quot;0&quot; style=&quot;width: 117px; height: 150px; float: left; margin: 3px 5px;&quot; /&gt;Martin Raubal is Professor of Geoinformation-Engineering at the Swiss  Federal Institute of Technology Zurich. He was previously Associate  Professor and Vice-Chair at the Department of Geography, University of  California, Santa Barbara, and Junior Professor at the University of  Münster. Martin received his Ph.D. in Geoinformation from Vienna  University of Technology in 2001 with honors. He holds a M.S. in Spatial  Information Science and Engineering from the University of Maine and a  Dipl.-Ing. in Surveying Engineering from Vienna University of  Technology. Martin’s research interests lie in the areas of mobile GIS  &amp; LBS, spatial cognitive engineering, mobile eye-tracking, and GIS  for renewable energy analysis. His teaching includes courses on GIS,  cartography, geovisualization, location-based services, temporal aspects  of GIS, spatial cognition and wayfinding, and research methods. Martin  is currently a council member of AGILE (Association of Geographic  Information Laboratories in Europe) and was a board member of UCGIS  (University Consortium for Geographic Information Science) from 2008-11.  He serves on the editorial boards of Transactions in GIS, Journal of  Location Based Services, Journal of Spatial Information Science, and  Geography Compass. He has authored and co-authored more than 90 books  and research papers published in refereed journals and conference  proceedings.&lt;/p&gt;
+&lt;h3&gt;Professional Appointments&lt;/h3&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Apr. 2011 – Full Professor for Geoinformation-Engineering Swiss Federal Institute of Technology, ETH Zurich, Switzerland&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Oct. 2011 – Member of the Energy Science Center, ETH Zurich&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Mar. 2011 – Adjunct Professor Department of Geography University of California, Santa Barbara, U.S.A.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;2008 – 2011 Associate Professor Department of Geography University of California, Santa Barbara, U.S.A.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;2008 – Affiliated faculty member Department of Computer Science University of California, Santa Barbara, U.S.A.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;2007 – Faculty member of Cognitive Science Program University of California, Santa Barbara, U.S.A.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;2006 – 2008 Assistant Professor Department of Geography University of California, Santa Barbara, U.S.A.&lt;/p&gt;
+&lt;h3&gt;Selected Publications&lt;/h3&gt;
+&lt;p&gt;Y. Yuan, M. Raubal, and Y. Liu (2012) Correlating Mobile Phone Usage and  Travel Behavior - A Case Study of Harbin, China. Computers, Environment  and Urban Systems. 36(2): 118-130.&lt;br /&gt;&lt;br /&gt;M. Raubal (2011) Cogito ergo  mobilis sum: The impact of Location-Based Services on our mobile lives.  in: T. Nyerges, H. Couclelis, and R. McMaster (Eds.), The SAGE Handbook  of GIS and Society. pp. 159-173, Sage Publications, Los Angeles, London.&lt;br /&gt;&lt;br /&gt;M. Raubal (2009) Cognitive Engineering for Geographic Information Science. Geography Compass 3(3): 1087–1104.&lt;br /&gt;&lt;br /&gt;M.  Raubal, S. Winter, S. Teßmann, and C. Gaisbauer (2007) Time geography  for ad-hoc shared-ride trip planning in mobile geosensor networks. ISPRS  Journal of Photogrammetry and Remote Sensing. 62(5): 366-381.&lt;br /&gt;&lt;br /&gt;M.  Raubal and S. Winter (2002) Enriching Wayfinding Instructions with  Local Landmarks. in: M. Egenhofer and D. Mark (Eds.), Geographic  Information Science - Second International Conference, GIScience 2002,  Boulder, CO, USA, September 2002. Lecture Notes in Computer Science  2478, pp. 243-259, Springer, Berlin.&lt;/p&gt;</content>
+	</entry>
+	<entry>
+		<title>Prof. Dr. Michael Gould</title>
+		<link rel="alternate" type="text/html" href="http://www.geomundus.org/index.php/program/keynote-speakers/27-michae-gould"/>
+		<published>2012-07-10T21:08:36Z</published>
+		<updated>2012-07-10T21:08:36Z</updated>
+		<id>http://www.geomundus.org/index.php/program/keynote-speakers/27-michae-gould</id>
+		<author>
+			<name>Diego Gargallo Tarín</name>
+		<email>rasgurth@gmail.com</email>
+		</author>
+		<summary type="html">&lt;p style=&quot;text-align: justify; &quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;http://geomundus.org/media/kunena/attachments/70/MichaelGould.jpg&quot; style=&quot;width: 117px; height: 150px; float: left; border-width: 0px; border-style: solid; margin: 3px 5px;&quot; /&gt;Michael Gould worked as GIS analyst at an environmental consulting company and as research programmer at Harvard Graduate School of Design, before receiving the PhD in GIS from National Center for Geographic Information and Analysis (NCGIA), State University of New York at Buffalo. He moved to Spain in 1991 to join ESRI Spain as director of technology transfer. He was a visiting GIS professor in Madrid and Extremadura before taking a permanent position as professor of information systems in 1999 at Universitat Jaume I (UJI) in Castellon. In 2000-2001 he spent a sabbatical year at the Open Geospatial Consortium (OGC) in Boston. He has been principal investigator in a number of European and national research projects, and was one of the co-founders of the Erasmus Mundus Masters degree in Geospatial Technologies. In 2008 he joined ESRI (California) as Global Education Manager and is now based in Spain, where he works only part-time at UJI. In his ESRI role he travels extensively and works with ESRI offices, ministries of Education and local universities --mostly in Middle East, Africa and Latin America-- to improve the level of GIS education, training, and employment.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;
+	&amp;nbsp;&lt;/p&gt;</summary>
+		<content type="html">&lt;p style=&quot;text-align: justify; &quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;http://geomundus.org/media/kunena/attachments/70/MichaelGould.jpg&quot; style=&quot;width: 117px; height: 150px; float: left; border-width: 0px; border-style: solid; margin: 3px 5px;&quot; /&gt;Michael Gould worked as GIS analyst at an environmental consulting company and as research programmer at Harvard Graduate School of Design, before receiving the PhD in GIS from National Center for Geographic Information and Analysis (NCGIA), State University of New York at Buffalo. He moved to Spain in 1991 to join ESRI Spain as director of technology transfer. He was a visiting GIS professor in Madrid and Extremadura before taking a permanent position as professor of information systems in 1999 at Universitat Jaume I (UJI) in Castellon. In 2000-2001 he spent a sabbatical year at the Open Geospatial Consortium (OGC) in Boston. He has been principal investigator in a number of European and national research projects, and was one of the co-founders of the Erasmus Mundus Masters degree in Geospatial Technologies. In 2008 he joined ESRI (California) as Global Education Manager and is now based in Spain, where he works only part-time at UJI. In his ESRI role he travels extensively and works with ESRI offices, ministries of Education and local universities --mostly in Middle East, Africa and Latin America-- to improve the level of GIS education, training, and employment.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;
+	&amp;nbsp;&lt;/p&gt;</content>
+	</entry>
+</feed>

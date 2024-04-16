@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.geomundus.org	TRUE	/	FALSE	1999999999	5d10a2b5a38b56ca8cf74a171f77fc32	jvm0huhn86l0grd682pujhb0b2
+www.geomundus.org	TRUE	/	FALSE	1999999999	ja_purity_tpl	ja_purity
+.google.com	TRUE	/	FALSE	1999999999	NID	67=sMhnBYoGzTuGCF3xp8_xazgON3bahvH1rKBguy-nmz9KquL8iHRHG9KkOREsY1u_oxZst5581L9AhyvBNuhiWfFdgFOJ9QWvmZpsCDoXK5Rq7IAfRYkt0yvktdefVyoQ
+

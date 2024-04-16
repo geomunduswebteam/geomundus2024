@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<head>
+    <title>Program</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <meta http-equiv="expires" content="0"><!-- Never caches the page -->
+    <link id="favicon" rel="shortcut icon" href="images\main\icon_2022.png">
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/gallery.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/elastislide.css"/>
+    <script src="https://kit.fontawesome.com/b37653d681.js"></script>
+</head>
+
+<body onload="initMap()">
+
+    <!-- MENU -->
+    <nav>
+        <ul class="menu">
+            <a href="index.html#header"><img class='menu_logo' src="images/main/logo_2022.png" alt=""></a>
+            <li class="item has-dropdown"><a>Program</a>
+                <ul class="main-menu-dropdown">
+                    <li><a href="program.html">Schedule</a></li>
+                    <li><a href="speakers.html#keynotes">Keynote Speakers</a></li>
+                    <li><a href="speakers.html#workshops">Workshop Leaders</a></li>
+                </ul>
+            </li>
+            <li class="item"><a href="registration.html">Registration</a></li>
+            <li class="item has-dropdown"><a>Submissions</a>
+                <ul class="main-menu-dropdown">
+                    <li><a href="submission.html#papers">Papers</a></li>
+                    <li><a href="mapathon.html">Mapathon</a></li>
+                </ul>
+            </li>
+            <li class="item"><a href="index.html#sponsors" >Sponsors</a></li>
+            <li class="item"><a href="teams.html">Team</a></li>
+            <li class="item"><a href="index.html#contact">Contact</a></li>
+            <li class="item has-dropdown"><a>Previous Editions</a>
+                <ul class="main-menu-dropdown">
+                    <li><a href="https://geomundus.org/2021/">2021 Lisboa</a></li>
+                    <li><a href="https://geomundus.org/2020/">2020 Münster</a></li>
+                    <li><a href="https://geomundus.org/2019/">2019 Castelló</a></li>
+                    <li><a href="https://geomundus.org/2018/">2018 Lisboa</a></li>
+                    <li><a href="https://geomundus.org/2017/">2017 Münster</a></li>
+                    <li><a href="https://geomundus.org/2016/">2016 Castelló</a></li>
+                    <li><a href="https://geomundus.org/2015/">2015 Lisboa</a></li>
+                    <li><a href="https://geomundus.org/2014/">2014 Münster</a></li>
+                    <li><a href="https://geomundus.org/2013/">2013 Castelló</a></li>
+                    <li><a href="https://geomundus.org/2012/index-2.html">2012 Lisboa</a></li>
+                    <li><a href="https://geomundus.org/2011/index2011.php">2011 Münster</a></li>
+                    <li><a href="https://geomundus.wordpress.com/">2010 Castelló</a></li>
+                    <li><a href="https://geomundus.wordpress.com/previous-editions/geomundus-2009/">2009 Lisboa</a></li>
+                </ul>
+            </li>
+            <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+        </ul>
+    </nav>
+
+    <!-- SCHEDULE -->
+    <section id="program" class="main style2">
+        <div class="container">
+            <header class="major">
+                <h2 style="color: #ffffff;">Schedule</h2>
+            </header>
+            <p style="color: #ffffff;">All time slots below refer to the Western European Summer Time (UTC+1).
+            <br>The following schedule is subject to change and will be further updated as the information on sepakers and workshops will be released.
+            </p>
+            <div id="responsiveTabsDemo" class="css3-tabstrip">
+                <ul class="table_list">
+                    <li>
+                        <input type="radio" name="css3-tabstrip-0" checked id="css3-tabstrip-0-1" /><label for="css3-tabstrip-0-1">Thursday, 20th</label>
+                        <div class="table-wrapper" style="height: fit-content">
+                            <table class="alt">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 10%">Time</th>
+                                        <th>Description</th>
+                                    </tr>
+                                <tbody>
+                                    <tr>
+                                        <td>18:00</td>
+                                        <td>
+                                            <a onclick="toggle(this)" class="program-dropdown-main">+ Lisbon City Tour (Informal Event)</a>
+                                            <span style="display: none;">
+                                                <a class="program-dropdown-sub">
+                                                    We cordially invite all the participants of GeoMundus 2022 to a tour around the astonishing Lisbon city center. 
+                                                    Be ready to meet amazing people, share a drink and get into GeoMundus conference mood. 
+                                                    We will meet at Praça Luís de Camões
+
+                                                    <br>Note: Includes 1 Pastel de Nata. Additional drinks and snacks are self-paid</a>
+                                            </span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="css3-tabstrip-0" checked id="css3-tabstrip-0-2" /><label for="css3-tabstrip-0-2">Friday, 21st</label>
+                        <div class="table-wrapper" style="height: fit-content">
+                            <table class="alt">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 10%">Time</th>
+                                        <th>Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>8:30</td>
+                                        <td>Registration and Early-Bird Networking</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9:00</td>
+                                        <td> <a class="program-dropdown-main">Opening Ceremony & Introduction</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>9:15</td>
+                                        <td>
+                                            <a onclick="toggle(this)" class="program-dropdown-main">+ Keynote Speaker: Dr. Werner Kuhn</a>
+                                            <span style="display: none; text-align:justify;">
+                                                <a class="program-dropdown-sub" href="./speakers.html#speaker-1" target="_blank">
+                                                    <br><b>What you may wish you knew when you learned to use GIS</b>
+                                                    <br>Over the past decade, I have been trying to identify, understand, and specify a small set of Core Concepts of Spatial Information. These concepts are intended to be necessary and sufficient for understanding how spatial information answers questions about the world. I started researching them around 2010, when I faced two problems—and embarrassments—at once: First, I could not come up with contents that seemed compelling and worth teaching in a graduate course on Geographic Information Science. Second, I found it much harder than expected to help an epidemiologist improve his GIS model of how bird flu spreads among turkey farms in northern Italy. Both problems indicated to me a need for clarifying and strengthening the conceptual foundations of GIS. 
+                                                    <br><br>In my presentation at GeoMundus, I will summarize the research results so far and suggest that the core concepts have the potential to make learning and using GIS easier, more platform-independent, and more generally accessible. Through their systematic anchoring in physics and ontology (without compromises or “adaptations” to supposedly special needs of GIS) they can contribute to a future where spatial information and spatial computing are as well understood and applicable across disciplines as statistical information and computing are today.</a>
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>.
+                                        <td>10:00</td>
+                                        <td>
+                                            <a onclick="toggle(this)" class="program-dropdown-main">+ Paper Presentation</a>
+                                            <span style="display: none;">
+                                                <a class="program-dropdown-sub" href="./submission.html" target="_blank">The winning papers will be soon announced!</a>
+                                                <!--Jhon Eric Aunta Duarte - <a href="./docs/papers/Short_Paper_Geomundus_2021_Jhon_Eric_Aunta_Duarte.pdf" target="_blank" class ="intext_link">Change Detection Analysis Using Radar Images in the Quito River, Colombia</a>
+                                                <br>
+                                                Nianhua Liu - <a href="./docs/papers/Short_Paper_Geomundus_2021_Nianhua_Liu.pdf" target="_blank" class ="intext_link">The overview, outcome, and outlook of GIS-based football visualization</a>
+                                                <br>
+                                                Safianou Ousmanou - <a href="./docs/papers/Short_Paper_Geomundus_2021_Safianou_Ousmanou.pdf" target="_blank" class ="intext_link">Hydrothermal mineral mapping using Landsat 7 ETM+ Bands and GIS techniques in Banyo, Adamawa-Cameroon</a>-->
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>10:30</td>
+                                        <td>Coffee Break</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11:00</td>
+                                        <td>
+                                            <a onclick="toggle(this)" class="program-dropdown-main">+ Paper Presentation</a>
+                                            <span style="display: none;">
+                                                <a class="program-dropdown-sub" href="./submission.html" target="_blank">The winning papers will be soon announced!</a>
+                                                <!--Jhon Eric Aunta Duarte - <a href="./docs/papers/Short_Paper_Geomundus_2021_Jhon_Eric_Aunta_Duarte.pdf" target="_blank" class ="intext_link">Change Detection Analysis Using Radar Images in the Quito River, Colombia</a>
+                                                <br>
+                                                Nianhua Liu - <a href="./docs/papers/Short_Paper_Geomundus_2021_Nianhua_Liu.pdf" target="_blank" class ="intext_link">The overview, outcome, and outlook of GIS-based football visualization</a>
+                                                <br>
+                                                Safianou Ousmanou - <a href="./docs/papers/Short_Paper_Geomundus_2021_Safianou_Ousmanou.pdf" target="_blank" class ="intext_link">Hydrothermal mineral mapping using Landsat 7 ETM+ Bands and GIS techniques in Banyo, Adamawa-Cameroon</a>-->
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>11:30</td>
+                                        <td>
+                                            <a onclick="toggle(this)" class="program-dropdown-main">+ Alumni Panel</a>
+                                            <span style="display: none;"> 
+                                                <a> This session is meant for past GeoTech students to shed light on what they have continued to pursue after their graduation. <br>
+                                                Guests TBA. <br> <!--
+                                                - <a class="program-dropdown-sub" href="https://www.linkedin.com/in/ignponsoda/" target="_blank"> Ignacio Ponsoda Llorens</a> <br>
+                                                - <a class="program-dropdown-sub" href="https://www.linkedin.com/in/daria-ludtke/" target="_blank"> Daria Ludtke </a> <br>
+                                                - <a class="program-dropdown-sub" href="https://www.linkedin.com/in/mahesh-thapa-44507456/" target="_blank"> Mahesh Thapa </a>  
+                                            </span>
+                                            -->
+                                            </a>
+                                        </td> 
+                                    </tr>
+                                    <tr>
+                                        <td>12:30 </td>
+                                        <td> Lunch Break </td>
+                                    </tr>
+                                    <tr>
+                                        <td>14:00</td>
+                                        <td>
+                                            <a onclick="toggle(this)" class="program-dropdown-main">+ Keynote Speaker: Dr. Michael F. Goodchild</a>
+                                            <span style="display: none;">
+                                                <a class="program-dropdown-sub" href="./speakers.html#speaker-1" target="_blank">
+                                                    <br><b>Replicability over the globe</b>
+                                                    <br>Replicability takes on special meaning when researching phenomena that are embedded in space and time, including phenomena distributed on the surface and near-surface of the Earth. Two principles, spatial dependence and spatial heterogeneity, are generally characteristic of such phenomena. Various practices have evolved in dealing with spatial heterogeneity, including the use of place-based models. I review the rapidly emerging applications of artificial intelligence to phenomena distributed in space and time, and speculate on how the principle of spatial heterogeneity might be addressed. I introduce a concept of weak replicability and discuss possible approaches to its measurement.
+                                                </a>
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>14:45</td>
+                                        <td>Coffee Break</td>
+                                    </tr>
+                                    <tr>
+                                        <td>15:00</td>
+                                        <td>
+                                            <a onclick='toggle(this)' class="program-dropdown-main">+ Workshop Session</a>
+                                            <span style="display: none;">
+                                                <br><b>Fundamentals of deep learning for computer vision</b> by Muhammad Affan
+                                                <br>Explore the fundamentals of deep learning by training neural networks and using results to improve performance and capabilities. Learn how to start solving problems with deep learning.
+                                                <br>Prerequisites: Familiarity with basic programming fundamentals such as functions and variables
+                                                <br><br>If you are interested in  attending, please prepare for the NVIDIA DLI Workshop by creating an NVIDIA account, testing your laptop, and carefully reviewing the datasheet to become familiar with <b><a href="/docs/DLIworkshopsetup.pdf">Prerequisites</a></b>, Learning Objectives, and Agenda Outline. Please follow the steps outlined <b><a href="https://developer.nvidia.com/dli/getready">here</a></b>.
+                                                <br><br><b>A Brief Look into UAS LiDAR Collection, Processing, and Analysis</b> by Jordan Bates
+                                                <br>The workshop will prepare attendees for their own UAS LiDAR projects. It will provide an overview of LiDAR technology and the considerations that need to be made when planning a UAS project with this sensor. Mission planning and a live flight demonstration will take place. Workflow for producing a 3D point cloud with the data will be covered. Then attendees will be taken through steps in doing further processing and analysis for a forest use case with LIDAR data using RStudio.
+                                                <br><br><b>GeoAI: A brief view of deep learning in ArcGIS</b> by Rami Alouta
+                                                <br>GeoAI within ArcGIS has taken advantage of the wider availability of cloud computing, and now is being applied in a wide range of organizations in variety of fields. This is matched by strong growth in the imagery industry thanks to increased satellite data, countries seeking to provide publicly accessible aerial imagery, and the massive market availability of commercial drones. In this workshop we demonstrate cloud imagery storage and analysis with ArcGIS in interesting GeoAI in sectors like Agriculture, Humanitarian Aid and Disaster Response, Development and Urban planning, and more. We will explore the different products that are GeoAI enabled and will work with the different deep learning resources available in the ArcGIS Living Atlas of the World. The attendees of this workshop will learn how to go through a deep learning workflow. We will take a close look at creating training data, training new models, fine-tuning existing models and inferencing within ArcGIS. Finally we cover post processing and data sharing workflows within ArcGIS.
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>18:00</td>
+                                        <td>End of Friday's session</td>
+                                    </tr>
+                                    <tr>
+                                        <td>19:00</td>
+                                        <td>
+                                            <a onclick='toggle(this)' class="program-dropdown-main">Conference dinner</a>
+                                            <!--<span style="display: none;">
+                                                <a>Info about the price, place...</a>
+                                            </span>-->
+                                        </td>
+                                </tbody>
+                            </table>
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="css3-tabstrip-0" id="css3-tabstrip-0-3" /><label for="css3-tabstrip-0-3">Saturday, 22nd</label>
+                        <div class="table-wrapper" style="height: fit-content">
+                            <table class="alt">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 10%">Time</th>
+                                        <th>Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>8:30</td>
+                                        <td>Registration and Early-Bird Networking</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9:00</td>
+                                        <td><a class="program-dropdown-main">Opening Ceremony & Introduction</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>9:15</td>
+                                        <td>
+                                            <a onclick="toggle(this)" class="program-dropdown-main">+ Keynote Speaker: Dr. Iris Kramer</a>
+                                            <span style="display: none;">
+                                                <a class="program-dropdown-sub" href="./speakers.html#speaker-1" target="_blank">Further information coming soon</a>
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>10:00</td>
+                                        <td>
+                                            <a onclick="toggle(this)" class="program-dropdown-main">+ Paper Presentations</a>
+                                            <span style="display: none;">
+                                                <a class="program-dropdown-sub" href="./submission.html" target="_blank">The winning papers will be soon announced!</a>
+                                                <!--Jhon Eric Aunta Duarte - <a href="./docs/papers/Short_Paper_Geomundus_2021_Jhon_Eric_Aunta_Duarte.pdf" target="_blank" class ="intext_link">Change Detection Analysis Using Radar Images in the Quito River, Colombia</a>
+                                                <br>
+                                                Nianhua Liu - <a href="./docs/papers/Short_Paper_Geomundus_2021_Nianhua_Liu.pdf" target="_blank" class ="intext_link">The overview, outcome, and outlook of GIS-based football visualization</a>
+                                                <br>
+                                                Safianou Ousmanou - <a href="./docs/papers/Short_Paper_Geomundus_2021_Safianou_Ousmanou.pdf" target="_blank" class ="intext_link">Hydrothermal mineral mapping using Landsat 7 ETM+ Bands and GIS techniques in Banyo, Adamawa-Cameroon</a>-->
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>10:30</td>
+                                        <td>Coffee Break</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11:00</td>
+                                        <td>
+                                            <a onclick="toggle(this)" class="program-dropdown-main">+ Paper Presentations</a>
+                                            <span style="display: none;">
+                                                <a class="program-dropdown-sub" href="./submission.html" target="_blank">The winning papers will be soon announced!</a>
+                                                <!--Jhon Eric Aunta Duarte - <a href="./docs/papers/Short_Paper_Geomundus_2021_Jhon_Eric_Aunta_Duarte.pdf" target="_blank" class ="intext_link">Change Detection Analysis Using Radar Images in the Quito River, Colombia</a>
+                                                <br>
+                                                Nianhua Liu - <a href="./docs/papers/Short_Paper_Geomundus_2021_Nianhua_Liu.pdf" target="_blank" class ="intext_link">The overview, outcome, and outlook of GIS-based football visualization</a>
+                                                <br>
+                                                Safianou Ousmanou - <a href="./docs/papers/Short_Paper_Geomundus_2021_Safianou_Ousmanou.pdf" target="_blank" class ="intext_link">Hydrothermal mineral mapping using Landsat 7 ETM+ Bands and GIS techniques in Banyo, Adamawa-Cameroon</a>-->
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                    <td>11:30</td>
+                                        <td>
+                                            <a onclick="toggle(this)" class="program-dropdown-main">+ Alumni Panel</a>
+                                            <span style="display: none;"> 
+                                                <a> This session is meant for past GeoTech students to shed light on what they have continued to pursue after their graduation. <br>
+                                                Guests TBA. <br> <!--
+                                                - <a class="program-dropdown-sub" href="https://www.linkedin.com/in/ignponsoda/" target="_blank"> Ignacio Ponsoda Llorens</a> <br>
+                                                - <a class="program-dropdown-sub" href="https://www.linkedin.com/in/daria-ludtke/" target="_blank"> Daria Ludtke </a> <br>
+                                                - <a class="program-dropdown-sub" href="https://www.linkedin.com/in/mahesh-thapa-44507456/" target="_blank"> Mahesh Thapa </a>  
+                                            </span>
+                                            -->
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>12:30</td>
+                                        <td>Lunch Break</td>
+                                    </tr>
+                                    <!-- <tr>
+                                        <td>13:30</td>
+                                        <td>
+                                            <a onclick="toggle(this)" class="program-dropdown-main">+ Keynote Presentation 4: TBA</a>
+                                            <span style="display: none;">
+                                                <a class="program-dropdown-sub" href="./speakers.html#speaker-2" target="_blank">Title: The God’s eye view? Geospatial data, power and politics</a>
+                                            </span>
+                                        </td>
+                                    </tr> -->
+                                    <tr>
+                                        <td>14:00</td>
+                                        <td>
+                                            <a onclick="toggle(this)" class="program-dropdown-main">+ Keynote Speaker: Prof. Dr. Ilse Aben</a>
+                                            <span style="display: none;">
+                                                <a class="program-dropdown-sub" href="./speakers.html#speaker-1" target="_blank">
+                                                    <br><b>Using satellites (and ML) to support governments and companies to reduce methane emissions.</b> 
+                                                    <br>The importance of reducing methane emissions to mitigate climate change in the short term has been recognised at the highest political level. At COP26 over 100 countries signed up to the Methane Pledge to reduce methane emissions by 30% by 2030. The International Methane Emission Observatory (IMEO) was recently launched by the UN to support companies and governments in reducing their methane emissions by providing actionable data based on a.o. methane measurements. In addition, the European Commission has prominently identified the role of satellites to support its goal to reduce methane emissions. 
+                                                    In this presentation I will present the state-of-the-art on satellite observations of so-called methane super emitters, and how this can help reduce the emissions of this important greenhouse gas.
+                                                    </a>
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>14:45</td>
+                                        <td>
+                                            <a onclick="toggle(this)" class="program-dropdown-main">+ Mapathon</a>
+                                            <span style="display: none;"> 
+                                                <a class="program-dropdown-sub" href="./mapathon.html" target="_blank">You can still present your maps for this year's Mapathon!</a>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>15:15</td>
+                                        <td>Coffee Break</td>
+                                    </tr>
+                                    <tr>
+                                        <td>15:45</td>
+                                        <td>
+                                            <a onclick="toggle(this)" class="program-dropdown-main">+ Paper Presentations</a>
+                                            <span style="display: none;">
+                                                <a class="program-dropdown-sub" href="./submission.html" target="_blank">The winning papers will be soon announced!</a>
+                                                <!--Jhon Eric Aunta Duarte - <a href="./docs/papers/Short_Paper_Geomundus_2021_Jhon_Eric_Aunta_Duarte.pdf" target="_blank" class ="intext_link">Change Detection Analysis Using Radar Images in the Quito River, Colombia</a>
+                                                <br>
+                                                Nianhua Liu - <a href="./docs/papers/Short_Paper_Geomundus_2021_Nianhua_Liu.pdf" target="_blank" class ="intext_link">The overview, outcome, and outlook of GIS-based football visualization</a>
+                                                <br>
+                                                Safianou Ousmanou - <a href="./docs/papers/Short_Paper_Geomundus_2021_Safianou_Ousmanou.pdf" target="_blank" class ="intext_link">Hydrothermal mineral mapping using Landsat 7 ETM+ Bands and GIS techniques in Banyo, Adamawa-Cameroon</a>-->
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>16:30</td>
+                                        <td> <a onclick="toggle(this)" class="program-dropdown-main">+ Career Development Sessions</a>
+                                            <span style="display:none;">
+                                                This is a panel made up of experts from academia, private and public GIS organizations with abundant experience in the field. 
+                                                The speakers will have time to talk about their history and experiences in GIS, and give insight into the industry.
+                                                <br>
+                                                Panelists: TBA
+                                                <br> <!---
+                                                - <a class="program-dropdown-sub" href="https://www.linkedin.com/in/alexander-strotmann" target="_blank"> Alex Strotmann (Project Manager, con terra)</a> <br>
+                                                - <a class="program-dropdown-sub" href="https://jwagemann.com/" target="_blank"> Julia Wagemann (Independent Consultant, Co-founder of Women in Geospatial+)</a> <br>
+                                                - <a class="program-dropdown-sub" href="http://ben.graeler.org/" target="_blank"> Dr. Benedikt Gräler (Managing Director, 52° North)</a> <br>
+                                                - <a class="program-dropdown-sub" href="https://www.linkedin.com/in/stefana-cioban-650bb810b/" target="_blank"> Stefana Cioban (Data Scientist, Endava) </a> <br> -->
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>18:00</td>
+                                        <td>End of the Day & Conference closing ceremony</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer: SOCIAL NETWORKS -->
+    <section id="footer">
+        <div class="container">
+            <br>
+            <section id="social_networks">
+                <ul class="icons">
+                    <li><a href="https://twitter.com/geomundus" class="icon alt fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+                    <li><a href="https://www.facebook.com/geomundus/?fref=ts" class="icon alt fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+                    <li><a href="https://www.instagram.com/geomundus_conference/" class="icon alt fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+                    <li><a href="https://github.com/erasmus-mundus-geotech-master/" class="icon alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+                    <li><a href="https://www.linkedin.com/in/geomundus-team-6b3b8b23a/" class="icon alt fa-linkedin" target="_blank"><span class="label">GitHub</span></a></li>
+                </ul>
+            </section>
+    
+            <ul class="copyright">
+                <li><a href="https://github.com/erasmus-mundus-geotech-master/Geomundus2021" target="_blank"> &copy; GeoMundus 2022</a></li>
+                <li>Designed by GeoMundus Web Team</li>
+            </ul>
+        </div>
+    </section>
+
+</body>
+</html>

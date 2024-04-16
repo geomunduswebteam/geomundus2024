@@ -1,0 +1,263 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Geomundus Map</title>
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+<link rel="icon" href="img/favicon.png" />
+<style>
+html {
+	height: 100%
+}
+body {
+	height: 100%;
+	margin: 0;
+}
+#map {
+	height: 100%;
+	width: 100%;
+}
+</style>
+</head>
+
+<body>
+<div id="map"></div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-64624917-1', 'auto');
+  ga('send', 'pageview');
+
+</script> 
+<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script> 
+<script>
+// create a map in the "map" div, set the view to a given place and zoom
+var map = L.map('map').setView([38.734584, -9.158255], 11);
+
+
+// add an OpenStreetMap tile layer
+/*L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);*/
+
+var Stamen_Toner = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+	maxZoom: 19,
+	attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+
+
+L.marker([38.707452, -9.154886], {
+		  icon: L.icon({
+			iconUrl: "img/restaurant.png",
+			iconAnchor: [15, 35]
+		  }),
+		 riseOnHover: true
+		}).addTo(map)
+    .bindPopup('Gala dinner: Marretas Santos Bar - Largo de Santos, 3-E 1200 Lisboa ')
+	
+
+L.marker([38.710804, -9.141456], {
+		  icon: L.icon({
+			iconUrl: "img/bar.png",
+			iconAnchor: [15, 35]
+		  }),
+		 riseOnHover: true
+		}).addTo(map)
+    .bindPopup('Informal meeting: Rua Garret 120, in front of Cafe a Brasileira ')	
+
+L.marker([38.736331, -9.160466], {
+		  icon: L.icon({
+			iconUrl: "img/stoppoint.png",
+			iconAnchor: [15, 35]
+		  }),
+		 riseOnHover: true
+		}).addTo(map)
+    .bindPopup('Bus Stop: Viaduto da Av. Gulbenkian (Lines: 756)')	
+	
+L.marker([38.733377, -9.154651], {
+		  icon: L.icon({
+			iconUrl: "img/stoppoint.png",
+			iconAnchor: [15, 35]
+		  }),
+		 riseOnHover: true
+		}).addTo(map)
+    .bindPopup('Bus Stop: B&deg; Azul (Lines: 713, 742)')
+	
+L.marker([38.729435, -9.160638], {
+		  icon: L.icon({
+			iconUrl: "img/stoppoint.png",
+			iconAnchor: [15, 35]
+		  }),
+		 riseOnHover: true
+		}).addTo(map)
+    .bindPopup('Bus Stop: Rua de Campolide - Escola (Lines: 701, 758)')				
+	
+
+
+L.marker([38.734758, -9.154140], {
+		  icon: L.icon({
+			iconUrl: "img/metrostation.png",
+			iconAnchor: [15, 35]
+		  }),
+		 riseOnHover: true
+		}).addTo(map)
+    .bindPopup('Metro Station: S&atilde;o Sebasti&atilde;o')	
+	
+	    
+	
+	
+L.marker([38.767729, -9.099356], {
+		  icon: L.icon({
+			iconUrl: "img/trainstation.png",
+			iconAnchor: [15, 35]
+		  }),
+		 riseOnHover: true
+		}).addTo(map)
+    .bindPopup('Train Station: Gare do Oriente')
+    
+	
+	
+L.marker([38.714005, -9.122710], {
+		  icon: L.icon({
+			iconUrl: "img/trainstation.png",
+			iconAnchor: [15, 35]
+		  }),
+		 riseOnHover: true
+		}).addTo(map)
+    .bindPopup('Train Station: Lisboa-Santa Apolónia')
+	
+	
+L.marker([38.775665, -9.135388], {
+		  icon: L.icon({
+			iconUrl: "img/airport.png",
+			iconAnchor: [15, 35]
+		  }),
+		 riseOnHover: true
+		}).addTo(map)
+    .bindPopup('Lisbon Airport')
+	
+L.marker([38.734584, -9.158255], {
+		  icon: L.icon({
+			iconUrl: "img/eventvenue.png",
+			iconAnchor: [15, 35]
+		  }),
+		 riseOnHover: true
+		}).addTo(map)
+    .bindPopup('Event Venue: Instituto Superior de Estatistica e Gestao de Informacao (ISEGI), Universidade Nova de Lisboa located at Campus de Campolide, 1070-312 Lisboa Portugal')	
+
+    	
+/*	
+eventMarker = L.marker([38.734584, -9.158255], {
+		  icon: L.icon({
+			iconUrl: "assets/img/busstop.png",
+			iconSize: [24, 24],
+			iconAnchor: [12, 12],
+			popupAnchor: [0, -25]
+		  }),
+		 riseOnHover: true
+		}).on("click", function(e) {
+  			$("#feature-title").html("Stop: "+obj.name);
+					$("#feature-info").html("Next buses:</br> " + obj.nextBuses.replace("#","</br>"));
+					$("#featureModal").modal("show");
+					highlight.clearLayers().addLayer(L.circleMarker([obj.position.lat, obj.position.lon], highlightStyle));	
+	 }); */
+
+
+// add a marker in the given location, attach some popup content to it and open the popup
+
+/*
+L.marker([39.994382, -0.068490]).addTo(map)
+    .bindPopup('A pretty CSS3 popup. <br> Easily customizable.')
+    .openPopup();
+	
+var rectorat = L.polygon([
+    [39.995692, -0.068238],
+    [39.995281, -0.068083],
+    [39.995164, -0.068595],
+	[39.995574, -0.068786]
+]).addTo(map);	
+
+var espaitec2 = L.polygon([
+    [39.994089, -0.074211],
+    [39.993752, -0.073428],
+    [39.993508, -0.073597],
+	[39.993851, -0.074396]
+]).addTo(map);	
+
+var espaitec1 = L.polygon([
+    [39.993750, -0.073253],
+    [39.993618, -0.072948],
+    [39.993371, -0.073114],
+	[39.993511, -0.073448]
+]).addTo(map);	
+
+var futballField4 = L.polygon([
+    [39.997323, -0.071194],
+    [39.997337, -0.070824],
+    [39.996714, -0.070774],
+	[39.996697, -0.071163]
+]).addTo(map);	
+
+
+
+var  it = L.polygon([
+    [39.993650, -0.068742],
+    [39.993662, -0.068597],
+    [39.993497, -0.068417],
+	[39.993471, -0.068114],
+	[39.993374, -0.068071],
+    [39.993304, -0.068355],
+    [39.992982, -0.068581],
+	[39.992782, -0.068506],
+	[39.992756, -0.068642],
+    [39.992941, -0.068827],
+    [39.992965, -0.069128],
+	[39.993076, -0.069179],
+	[39.993156, -0.068795],
+    [39.993374, -0.068637],
+    [39.993662, -0.068747]
+]).addTo(map);	
+
+
+
+var geoJsonBuildings = [
+{"type": "Polygon",
+    "coordinates": [[39.997323, -0.071194],
+    [39.997337, -0.070824],
+    [39.996714, -0.070774],
+	[39.996697, -0.071163]]}, 
+{"type": "Polygon",
+    "coordinates": [[39.993750, -0.073253],
+    [39.993618, -0.072948],
+    [39.993371, -0.073114],
+	[39.993511, -0.073448]]}
+];
+
+
+
+L.geoJson(geoJsonBuildings).addTo(map);
+*/
+
+var geojsonFeature = {
+    "type": "Feature",
+    "properties": {
+        "name": "Coors Field",
+        "amenity": "Baseball Stadium",
+        "popupContent": "This is where the Rockies play!"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [39.994142, -0.067630]
+    }
+};
+
+var myLayer = L.geoJson().addTo(map);
+myLayer.addData(geojsonFeature);
+var layer = L.geoJson(geojsonFeature).addTo(map);
+
+</script>
+</body>
+</html>

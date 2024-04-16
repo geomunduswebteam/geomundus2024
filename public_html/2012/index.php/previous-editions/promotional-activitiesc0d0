@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! 1.5 - Open Source Content Management" -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Promotional Activities</title>
+		<description>Geomundus</description>
+		<link>http://www.geomundus.org/index.php/previous-editions/promotional-activities</link>
+		<lastBuildDate>Wed, 05 Jun 2013 11:07:10 +0000</lastBuildDate>
+		<generator>Joomla! 1.5 - Open Source Content Management</generator>
+		<language>en-gb</language>
+		<item>
+			<title>Media Galleries</title>
+			<link>http://www.geomundus.org/index.php/previous-editions/promotional-activities/13-promotional-activities-comming-soon</link>
+			<guid>http://www.geomundus.org/index.php/previous-editions/promotional-activities/13-promotional-activities-comming-soon</guid>
+			<description><![CDATA[<p style="text-align: justify;">In the <a href="http://www.geomundus.org/index.php/photos/lisbon">photo gallery</a>, you can see photos of beautiful Lisbon, Portugal!</p>
+<p style="margin-bottom: 0cm; text-align: justify;">Older pictures of previous GeoMundus (<a href="http://www.geomundus.org/index.php/photos/geomundus-2010">2010</a>, <a href="http://www.geomundus.org/index.php/photos/geomundus-2009">2009</a>) and other galleries can be found at the left-side menu.</p>
+<p style="margin-bottom: 0cm; text-align: justify;"> </p>]]></description>
+			<author>rasgurth@gmail.com (Diego Gargallo Tarín)</author>
+			<category>Promotional Activities</category>
+			<pubDate>Thu, 05 Jul 2012 16:31:33 +0000</pubDate>
+		</item>
+	</channel>
+</rss>

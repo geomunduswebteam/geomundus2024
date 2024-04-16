@@ -1,0 +1,16 @@
+HTTrack3.47-17+htsswf+htsjava launched on Wed, 05 Jun 2013 13:05:59 at http://www.geomundus.org/ +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN100%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2013], %s -->" -%l "en, en, *" http://www.geomundus.org/ -O1 "C:\Users\c_kisf01\Documents\Gis-Web Backups\Geomundus\Joomla 2012\Geomundus Joomla 2012" +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+13:07:05	Error: 	"Forbidden" (403) at link www.geomundus.org/index.php/home/registration (from www.geomundus.org/)
+13:07:45	Error: 	"Not Found" (404) at link www.geomundus.org/templates/system/images/j_button2_right.png (from www.geomundus.org/templates/system/css/general.css)
+13:08:05	Error: 	"Not Found" (404) at link www.geomundus.org/ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 / (from connect.facebook.net/en_US/all.js)
+13:15:51	Error: 	"Unable to get server's address: Unknown error" (-5) after 2 retries at link mortal.bumpin.com/files/u_24890.js (from www.geomundus.org/)
+13:16:22	Warning: 	Warning, link #397 empty
+
+HTTrack Website Copier/3.47-17 mirror complete in 10 minutes 23 seconds : 396 links scanned, 389 files written (15868711 bytes overall) [14528444 bytes received at 23320 bytes/sec], 2060354 bytes transfered using HTTP compression in 115 files, ratio 24%, 1.0 requests per connection
+(4 errors, 1 warnings, 0 messages)

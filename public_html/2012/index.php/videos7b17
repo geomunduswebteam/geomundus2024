@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! 1.5 - Open Source Content Management" -->
+<feed xmlns="http://www.w3.org/2005/Atom"  xml:lang="en-gb">
+	<title type="text">Videos</title>
+	<subtitle type="text">Geomundus</subtitle>
+	<link rel="alternate" type="text/html" href="http://www.geomundus.org"/>
+	<id>http://www.geomundus.org/index.php/videos</id>
+	<updated>2013-06-05T11:08:04Z</updated>
+	<generator uri="http://joomla.org" version="1.5">Joomla! 1.5 - Open Source Content Management</generator>
+<link rel="self" type="application/atom+xml" href="http://www.geomundus.org/index.php/videos?format=feed&amp;type=atom" />
+	<entry>
+		<title>Video Gallery</title>
+		<link rel="alternate" type="text/html" href="http://www.geomundus.org/index.php/videos/24-video-gallery"/>
+		<published>2012-07-10T20:38:30Z</published>
+		<updated>2012-07-10T20:38:30Z</updated>
+		<id>http://www.geomundus.org/index.php/videos/24-video-gallery</id>
+		<author>
+			<name>Luis Bausá López</name>
+		<email>al087714@uji.es</email>
+		</author>
+		<summary type="html">&lt;h3&gt;
+	About Geomundus&lt;/h3&gt;
+&lt;iframe width=&quot;420&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/16GxXKVJV5w&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;</summary>
+		<content type="html">&lt;h3&gt;
+	About Geomundus&lt;/h3&gt;
+&lt;iframe width=&quot;420&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/16GxXKVJV5w&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;</content>
+	</entry>
+</feed>

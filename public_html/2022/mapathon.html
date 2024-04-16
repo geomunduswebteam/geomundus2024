@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<head>
+    <title>Mapathon</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="expires" content="0"><!-- Never caches the page -->
+    <link id="favicon" rel="shortcut icon" href="images\main\icon_2022.png">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB1K1qI88SQ1rk9N6zQ7yHk8vDnm_ldINc"></script>
+    <script src="js/main.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script type="text/javascript" src="js/jquery.tmpl.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.elastislide.js"></script>
+    <script type="text/javascript" src="js/gallery.js"></script>
+    <script src="https://kit.fontawesome.com/b37653d681.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/gallery.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/elastislide.css" />
+    <script id="img-wrapper-tmpl" type="text/x-jquery-tmpl">
+        <div class="rg-image-wrapper">
+            {{if itemsCount > 1}}
+            <div class="rg-image-nav">
+                <a href="#" class="rg-image-nav-prev">Previous Image</a>
+                <a href="#" class="rg-image-nav-next">Next Image</a>
+            </div>
+            {{/if}}
+            <div class="rg-image"></div>
+            <div class="rg-loading"></div>
+            <div class="rg-caption-wrapper">
+                <div class="rg-caption" style="display:none;">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </script>
+
+</head>
+
+<body onload="initMap()">
+
+    <!-- MENU -->
+    <nav>
+        <ul class="menu">
+            <a href="index.html#header"><img class='menu_logo' src="images/main/logo_2022.png" alt=""></a>
+            <li class="item has-dropdown"><a>Program</a>
+                <ul class="main-menu-dropdown">
+                    <li><a href="program.html">Schedule</a></li>
+                    <li><a href="speakers.html#keynotes">Keynote Speakers</a></li>
+                    <li><a href="speakers.html#workshops">Workshop Leaders</a></li>
+                </ul>
+            </li>
+            <li class="item"><a href="registration.html">Registration</a></li>
+            <li class="item has-dropdown"><a>Submissions</a>
+                <ul class="main-menu-dropdown">
+                    <li><a href="submission.html#papers">Papers</a></li>
+                    <li><a href="mapathon.html">Mapathon</a></li>
+                </ul>
+            </li>
+            <li class="item"><a href="index.html#sponsors" >Sponsors</a></li>
+            <li class="item"><a href="teams.html">Team</a></li>
+            <li class="item"><a href="index.html#contact">Contact</a></li>
+            <li class="item has-dropdown"><a>Previous Editions</a>
+                <ul class="main-menu-dropdown">
+                    <li><a href="https://geomundus.org/2021/">2021 Lisboa</a></li>
+                    <li><a href="https://geomundus.org/2020/">2020 Münster</a></li>
+                    <li><a href="https://geomundus.org/2019/">2019 Castelló</a></li>
+                    <li><a href="https://geomundus.org/2018/">2018 Lisboa</a></li>
+                    <li><a href="https://geomundus.org/2017/">2017 Münster</a></li>
+                    <li><a href="https://geomundus.org/2016/">2016 Castelló</a></li>
+                    <li><a href="https://geomundus.org/2015/">2015 Lisboa</a></li>
+                    <li><a href="https://geomundus.org/2014/">2014 Münster</a></li>
+                    <li><a href="https://geomundus.org/2013/">2013 Castelló</a></li>
+                    <li><a href="https://geomundus.org/2012/index-2.html">2012 Lisboa</a></li>
+                    <li><a href="https://geomundus.org/2011/index2011.php">2011 Münster</a></li>
+                    <li><a href="https://geomundus.wordpress.com/">2010 Castelló</a></li>
+                    <li><a href="https://geomundus.wordpress.com/previous-editions/geomundus-2009/">2009 Lisboa</a></li>
+                </ul>
+            </li>
+            <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+        </ul>
+    </nav>
+
+    <!-- MAPATHON INFORMATION -->
+    <section id="mapathon" class="main style">
+        <div class="inner" text-align="center">
+            <div class="container" style="text-align: justify;">
+                <header class="major">
+                    <h2>Mapathon</h2>
+                </header>
+    
+                <p style="text-align:justify;">
+                    <strong>Olá Mappers!</strong> Are you passionate about maps? Do you enjoy  visualizing your data and conveying your message via cartography? Then you are the perfect candidate for this year’s Mapathon!
+                    Similarly to previous conferences, you will have the opportunity to submit and share your astonishing maps at the 14th edition of GeoMundus.
+                </p>
+                <!--
+                <div class="row 100%">
+                    <div class="12u 12u$(medium)" style="text-align: center; padding-bottom: 30px;">
+                        <a href="https://drive.google.com/drive/u/0/folders/145Ws0gEgvSVYsdxyANLsAa3tejZFkmWe" target='_blank'class="button">Information & Datasets <i class="icon fa-globe"></i></a>
+                    </div>             
+                </div> 
+                -->
+               
+                                
+                <!-- SUBMISSION
+                <header class="major">
+                    <h3>Submission</h3>
+                </header>
+                
+                <p style="text-align:justify;"> 
+                    We are looking forward to your exciting submissions. You can <strong>send us your map by e-mail to organization[at]geomundus.org</strong>, after answering a few questions in the form below :)
+                <div class="row 100%">
+                    <div class="12u 12u$(medium)" style="text-align: center; padding-bottom: 30px;">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSf1i5chNUKpJdALGPafO_akPdO5GjG2YfxYP1eGBUuFuW7mIg/viewform?usp=sf_link" target='_blank'class="button">Send details <i class="icon fa-paper-plane"></i></a>
+                    </div>             
+                </div>                     
+                </p>     
+                <p>The submission deadline is November 26, 2021.</p>
+                -->
+                
+                <p> 
+                    <ul class="actions uniform" style="text-align: center;">
+                        <a href="docs/mapathon.zip" target='_blank' class="button special" id='bt1' value='Show Layer' style="background-color:#33002f;color: white!important; margin:20px;">DATA</a>
+                        <a href="https://forms.gle/NcDGQwAypgG46QNo7" target='_blank' class="button special" id='bt1' value='Show Layer' style="background-color:#33002f;color: red!important; margin:20px;">SUBMISSION PORTAL CLOSED</a>
+                    </ul>
+                </p>
+
+                <!-- Theme -->
+                <div class="gap">
+                    <header class="major">
+                        <h3><b>Theme: Rivers in the Iberian Peninsula</b> </h3>
+                    </header>
+                    
+                    <p> This theme pays tribute to two of our partner universities, <b>UJI in Castelló, Spain</b>, 
+                        and <b>NOVA in Lisboa, Portugal</b>, located on two different sides of the Iberian Peninsula.
+                         From the Mediterranean coast (Castelló) to the Atlantic one (Lisboa), rivers unite countries,
+                          towns, and people, bringing water and life.</p>
+                </div>
+
+                <!-- Data -->
+                <div class="gap">
+                    <header class="major">
+                        <h3>About the Data</h3>
+                    </header>
+                    <p> The provided datasets consist of two layers that have been grouped into a .zip file:
+                        <br><br>&#x2022; <b>The first is the Iberian Peninsula boundaries</b> | Format: SHP file | Source: Eurostat
+                        <br>&#x2022; <b>The second is the Iberian Peninsula rivers</b> | Format: SHP file | Source: World Wildlife Fund
+
+                        <br><br>It is not mandatory to use both datasets, but we recommend that you do. Also, feel free to use additional datasets similar to the ones we have already provided you with and get creative!
+                    </p>
+                </div>
+
+                <!-- Bases -->
+                <div class="gap">
+                    <header class="major">
+                        <h3>Please Read the Following Instructions</h3>
+                    </header>
+                    <br>
+                    <p> 1. Participants are required to create a map displaying the rivers in the Iberian Peninsula. The organization provides data that fulfills these requirements, it can be substituted by the participants for data with either higher or lower detail level and additional layers can be added.
+                        <br><br>2. The techniques and software used are free to choose by the participants.
+                        <br><br>3. All the features, images and other items shown in the map must be properly cited. The presented maps should be originals created by the authors. Any signs of plagiarism will imply the disqualification from the Mapathon. 
+                        <br><br>4. The final map is expected to be submitted at latest by 16th October 2022 at 23:59 CET (GMT +1). The submission portal is located at geomundus.org/2022/mapathon
+                        <br><br>5. The submitted map must be a PDF in A3 size (either portrait or landscape). It can be submitted extra material in a .ZIP folder (with the mandatory PDF inside it) in the case, for example, of 3D representation with a video rendered.
+                        <br><br>6. <!-- The winning map will be awarded with XXXXXXXX.--> The awarded map will be discussed in a meeting of the Organizing Committee of the 14th Geomundus Conference and the results revealed during the same conference. The organizers have the right to declare the prize null and void.</p>
+                </div>
+                
+                <!-- PRIZES -->
+                <div class="gap">
+                    <header class="major">
+                        <h3>Prizes to be Won</h3>
+                    </header>
+                    <p>The winner will recieve a prize that will be announced soon. However, to be eligible for the <b>Prize</b>, you must be enrolled at a university as a student, graduated or enrolling in 2023 (undergraduate, masters and doctorate).</p>
+                    <!-- <p>Applicants must check to see if their gift cards are available for use in their respective locations. <b style="color: red;">The organizers of 2021 Geomundus Conference will not be responsible for unredeemed gift cards and grants cannot be reimbursed in cash.</b></p>  -->
+                </div>
+                <!---
+                <header class="major">
+                    <h3>Support</h3>
+                </header>
+                <p>
+                    Special thanks to ESRI Portugal for supporting this Mapathon. They are generously providing us and the Mapathon participants with free ArcGIS Pro licenses for a period of 10 days to participate in this competition. Let us know if you are interested by writing to organization[at]geomundus.org.
+                    <div class="sponsors-all">
+                        <div class="sponsor-circle-div silver">
+                            <a href="https://www.esri-portugal.pt/pt-pt/home" target="_blank">
+                                <img class="sponsor-circle" style="padding-top: 20px" src="images\sponsors\Logo_ESRI_Portugal.png">
+                            </a>
+                        </div>  
+                    </div>
+                    
+                </p>
+                --->
+
+                <!-- Previous Winners -->
+                <header class="major">
+                    <h3>Previous Winner</h3>
+                </header>
+                <p>The winner of the 2022 Mapathon is <strong>Linbing Zhuang</strong> (NOVAIMS Lisbon, Portugal) for the map "Rivers in the Iberian Peninsula". The next winner could be you! See you next year!
+                    
+                    <p style="text-align: center; margin-top:55px;"><img width="80%" src="images/mapathon/Mapathon_winner_2022.png" alt=""/>
+                </body>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer: SOCIAL NETWORKS -->
+    <section id="footer">
+        <div class="container">
+            <br>
+            <section id="social_networks">
+                <ul class="icons">
+                    <li><a href="https://twitter.com/geomundus" class="icon alt fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+                    <li><a href="https://www.facebook.com/geomundus/?fref=ts" class="icon alt fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+                    <li><a href="https://www.instagram.com/geomundus_conference/" class="icon alt fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+                    <li><a href="https://github.com/erasmus-mundus-geotech-master/" class="icon alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+                    <li><a href="https://www.linkedin.com/in/geomundus-team-6b3b8b23a/" class="icon alt fa-linkedin" target="_blank"><span class="label">GitHub</span></a></li>
+                </ul>
+            </section>
+    
+            <ul class="copyright">
+                <li><a href="https://github.com/erasmus-mundus-geotech-master/Geomundus2021" target="_blank"> &copy; GeoMundus 2022</a></li>
+                <li>Designed by GeoMundus Web Team</li>
+            </ul>
+        </div>
+    </section>
+    
+</body>
+</html>

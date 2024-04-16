@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! 1.5 - Open Source Content Management" -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Guidelines</title>
+		<description>Geomundus</description>
+		<link>http://www.geomundus.org/index.php/submisions/guidelines</link>
+		<lastBuildDate>Wed, 05 Jun 2013 11:07:31 +0000</lastBuildDate>
+		<generator>Joomla! 1.5 - Open Source Content Management</generator>
+		<language>en-gb</language>
+		<item>
+			<title>Suggested topics</title>
+			<link>http://www.geomundus.org/index.php/submisions/guidelines/32-suggested-topics</link>
+			<guid>http://www.geomundus.org/index.php/submisions/guidelines/32-suggested-topics</guid>
+			<description><![CDATA[<ul>
+	<li>
+		<span style="background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; ">Environmental, ecological and urban regional modelling using GIS</span></li>
+	<li>
+		<span style="color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); ">Indoor navigation/modeling</span></li>
+	<li>
+		<span style="color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); ">Spatial analysis and modelling of urban dynamics</span></li>
+	<li>
+		<span style="color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); ">Open source in geoscience and environment.</span></li>
+	<li>
+		<span style="color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); ">Crowdsourcing</span></li>
+	<li>
+		<span style="color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); ">Spatial data infrastructures</span></li>
+	<li>
+		<span style="color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); ">Remote sensing segmentation and classification&nbsp;</span></li>
+	<li>
+		<span style="color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); ">Volunteered geographic information</span></li>
+	<li>
+		<span style="color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); ">GIScience</span></li>
+	<li>
+		<span style="color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); ">Spatial statistics</span></li>
+	<li>
+		<span style="color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); ">Location Based Services and mobile applications</span></li>
+	<li>
+		<span style="color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); ">Webservices and webmapping</span></li>
+	<li>
+		<span style="color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); ">Augmented reality</span></li>
+	<li>
+		<span style="color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); ">Climate change modelling</span></li>
+	<li>
+		<span style="color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); ">Mobile sensor semantics</span></li>
+	<li>
+		<span style="color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); ">Data and information management</span></li>
+	<li>
+		<span style="color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); ">Cognition and computation landscape</span></li>
+	<li>
+		<span style="color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); ">GIS for agriculture</span></li>
+	<li>
+		<span style="color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); ">GIS for archaeology</span></li>
+	<li>
+		<span style="color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); ">Spatio-temporal data modelling, analysis and data Visualization</span></li>
+	<li>
+		<span style="color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); ">Spatio-temporal ontologies</span></li>
+	<li>
+		<span style="color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); ">Public Participation GIS&nbsp;</span></li>
+	<li>
+		<span style="color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); ">GIS for Change of Land use</span></li>
+	<li>
+		<span style="color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); ">GIS and Spatial Analysis for Natural Resources, disaster and Risk Management GIS,</span></li>
+	<li>
+		<span style="color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); ">Spatial Analysis for Landscape Ecology</span></li>
+</ul>]]></description>
+			<author>rasgurth@gmail.com (Diego Gargallo Tarín)</author>
+			<category>Guidelines</category>
+			<pubDate>Thu, 19 Jul 2012 14:54:36 +0000</pubDate>
+		</item>
+		<item>
+			<title>Guidelines for Paper Submission</title>
+			<link>http://www.geomundus.org/index.php/submisions/guidelines/20-guidelines-for-paper-submission</link>
+			<guid>http://www.geomundus.org/index.php/submisions/guidelines/20-guidelines-for-paper-submission</guid>
+			<description><![CDATA[<p style="margin-bottom: 0cm" align="JUSTIFY">The proposed categories for paper submissions are:</p>
+<ul>
+<li>
+<p style="margin-bottom: 0cm" align="JUSTIFY">Geosciences</p>
+</li>
+<li>
+<p style="margin-bottom: 0cm" align="JUSTIFY">Geographic Information Sciences</p>
+</li>
+<li>
+<p style="margin-bottom: 0cm" align="JUSTIFY">Environmental</p>
+</li>
+<li>
+<p style="margin-bottom: 0cm" align="JUSTIFY">Semantics</p>
+</li>
+</ul>
+<p style="margin-bottom: 0cm" align="JUSTIFY"> </p>
+<p style="margin-bottom: 0cm" align="JUSTIFY">The conference encourages the submission of contributions in one of the these topics or from any of these themes:</p>
+<p style="margin-bottom: 0cm" align="JUSTIFY">(This list is NOT exclusive; other topics are welcome.)</p>
+<ul>
+<li>
+<p style="margin-bottom: 0cm" align="JUSTIFY">Indoor navigation/modeling</p>
+</li>
+<li>
+<p style="margin-bottom: 0cm" align="JUSTIFY">Open source</p>
+</li>
+<li>
+<p style="margin-bottom: 0cm" align="JUSTIFY">Crowdsourcing</p>
+</li>
+<li>
+<p style="margin-bottom: 0cm" align="JUSTIFY">Spatial data infrastructures</p>
+</li>
+<li>
+<p style="margin-bottom: 0cm" align="JUSTIFY">Archaeology</p>
+</li>
+<li>
+<p style="margin-bottom: 0cm" align="JUSTIFY">Urban planning</p>
+</li>
+<li>
+<p style="margin-bottom: 0cm" align="JUSTIFY">Disaster management</p>
+</li>
+<li>
+<p style="margin-bottom: 0cm" align="JUSTIFY">Water resources</p>
+</li>
+<li>
+<p style="margin-bottom: 0cm" align="JUSTIFY">Remote sensing</p>
+</li>
+<li>
+<p style="margin-bottom: 0cm" align="JUSTIFY">Volunteered geographic information</p>
+</li>
+<li>
+<p style="margin-bottom: 0cm" align="JUSTIFY">Mobile application development</p>
+</li>
+<li>
+<p style="margin-bottom: 0cm" align="JUSTIFY">Web application development</p>
+</li>
+<li>
+<p style="margin-bottom: 0cm" align="JUSTIFY">Augmented reality</p>
+</li>
+<li>
+<p style="margin-bottom: 0cm" align="JUSTIFY">Climate change modeling</p>
+</li>
+<li>
+<p style="margin-bottom: 0cm" align="JUSTIFY">Mobile sensor semantics</p>
+</li>
+<li>
+<p style="margin-bottom: 0cm" align="JUSTIFY">Data and information management</p>
+</li>
+<li>
+<p style="margin-bottom: 0cm" align="JUSTIFY">Cognition and computation landscape</p>
+</li>
+<li>
+<p style="margin-bottom: 0cm" align="JUSTIFY">Agriculture</p>
+</li>
+<li>
+<p style="margin-bottom: 0cm" align="JUSTIFY">Ecology and environment</p>
+</li>
+<li>
+<p style="margin-bottom: 0cm" align="JUSTIFY">Growth control</p>
+<p style="margin-bottom: 0cm" align="JUSTIFY"> </p>
+</li>
+</ul>
+<p style="margin-bottom: 0cm" align="JUSTIFY">The materials presented in the papers should not have been published before or be under submission elsewhere. They should follow the copyright rules; no copyrighted material may be used without permission. Submissions should be submitted electronically as Microsoft Word 2003 format (*.doc) and also .pdf and they must be written in English. The full paper should be not more than 6 pages in length (A4) and the submission can be made through submissions@geomundus.org or online submission through this website (First you need to register in the website then you can submit).</p>
+<p style="margin-bottom: 0cm" align="JUSTIFY">Font for text should be Times New Roman, with font size 9 to 12.</p>
+<p style="margin-bottom: 0cm" align="JUSTIFY">All papers should start with the abstract. Between 3 and 6 keywords should appear below the abstract, highlighting the main topics of the paper.</p>
+<p style="margin-bottom: 0cm" align="JUSTIFY">References should follow the Harvard referencing style, which means that primary references in text should be in the format (Brooks 1997) and should then be listed at the end of the paper as per the following examples:</p>
+<p style="margin-bottom: 0cm" align="JUSTIFY">Brooks, I. and Weatherston, J. (1997) The Business Environment: Challenges and Changes, Prentice Hall, London.</p>
+<p style="margin-bottom: 0cm" align="JUSTIFY">The paper textual content can be based on the paper template found <a href="http://www.geomundus.org/media/GEOMUNDUS2012_PAPER_TEMPLATE.doc">here</a>.</p>
+<p style="margin-bottom: 0cm;" align="JUSTIFY"> </p>]]></description>
+			<author>rasgurth@gmail.com (Diego Gargallo Tarín)</author>
+			<category>Guidelines</category>
+			<pubDate>Thu, 05 Jul 2012 22:33:05 +0000</pubDate>
+		</item>
+		<item>
+			<title>Guidelines for Posters Submission</title>
+			<link>http://www.geomundus.org/index.php/submisions/guidelines/21-guidelines-for-posters-submission</link>
+			<guid>http://www.geomundus.org/index.php/submisions/guidelines/21-guidelines-for-posters-submission</guid>
+			<description><![CDATA[<p style="margin-bottom: 0cm">
+	<span style="font-size: medium;"><strong>Content</strong></span></p>
+<p style="margin-bottom: 0cm">
+	The materials presented in the posters should not have been published before or be under submission elsewhere. They should follow the copyright rules; no copyrighted material may be used without permission.  The submitted posters must respect the following specifications:</p>
+<ul>
+	<li>
+		<p style="margin-bottom: 0cm">
+			Full title of the abstract corresponding to the poster</p>
+	</li>
+	<li>
+		<p style="margin-bottom: 0cm">
+			Names of authors and involved agencies, companies or (educational) institutions</p>
+	</li>
+	<li>
+		<p style="margin-bottom: 0cm">
+			Max 1000 words</p>
+	</li>
+	<li>
+		<p style="margin-bottom: 0cm">
+			Brief text, well organized, present only brief results that support your conclusions</p>
+	</li>
+	<li>
+		<p style="margin-bottom: 0cm">
+			Show the significance of you research</p>
+	</li>
+	<li>
+		<p style="margin-bottom: 0cm">
+			In general, include:</p>
+		<ul>
+			<li>
+				<p style="margin-bottom: 0cm">
+					Hypothesis</p>
+			</li>
+			<li>
+				<p style="margin-bottom: 0cm">
+					Methods</p>
+			</li>
+			<li>
+				<p style="margin-bottom: 0cm">
+					Results</p>
+			</li>
+			<li>
+				<p style="margin-bottom: 0cm">
+					Conclusions</p>
+			</li>
+			<li>
+				<p style="margin-bottom: 0cm">
+					Sources / literature used</p>
+			</li>
+			<li>
+				<p style="margin-bottom: 0cm">
+					Acknowledgements</p>
+			</li>
+		</ul>
+	</li>
+</ul>
+<p style="margin-bottom: 0cm">
+	<span style="font-size: medium;"><strong>Design</strong></span></p>
+<ul>
+	<li>
+		Dimensions: 1.20m x 0.90m (approx. 4&rsquo; x 3&rsquo;)</li>
+	<li>
+		Arrangement: Clear, simple and uncluttered arrangement</li>
+	<li>
+		Lettering: Title 8cm in height</li>
+	<li>
+		Authors&rsquo; names and affiliations somewhat smaller</li>
+	<li>
+		Everything should be readable from a distance of 1.5m &ndash; 2m (5&rsquo; &ndash; 7&rsquo;)</li>
+	<li>
+		Use a simple and clear font type. When using colors, make sure to have high contrast</li>
+</ul>
+<p style="margin-bottom: 0cm">
+	Once you are notified of your poster's acceptance, it is your responsibility to print it in A-0 size and bring it for display at the conference.</p>
+<p style="margin-bottom: 0cm;">
+	 </p>
+<ul>
+</ul>]]></description>
+			<author>rasgurth@gmail.com (Diego Gargallo Tarín)</author>
+			<category>Guidelines</category>
+			<pubDate>Fri, 06 Jul 2012 14:00:15 +0000</pubDate>
+		</item>
+		<item>
+			<title>Guidelines for Maps Submission</title>
+			<link>http://www.geomundus.org/index.php/submisions/guidelines/22-guidelines-for-maps-submission</link>
+			<guid>http://www.geomundus.org/index.php/submisions/guidelines/22-guidelines-for-maps-submission</guid>
+			<description><![CDATA[<p style="text-align: justify;">The materials presented in the maps should not have been published before or be under submission elsewhere. They should follow the copyright rules; no copyrighted material may be used without permission. The submitted maps must respect the following specifications:</p>
+<ul>
+<li>
+<p style="margin-bottom: 0cm"><span lang="en-US">They have to be submitted in a digital format, either </span><span lang="en-US"><strong>pdf</strong></span><span lang="en-US"> or any </span><span lang="en-US"><strong>picture format.</strong></span></p>
+</li>
+<li>
+<p style="margin-bottom: 0cm"><span lang="en-US">The map size and resolution should be enough to be able to be printed in </span><span lang="en-US"><strong>A1 </strong>or <strong>larger size</strong></span><span lang="en-US"> paper</span></p>
+</li>
+<li>
+<p style="margin-bottom: 0cm"><span lang="en-US">Each sender should not send more than </span><span lang="en-US"><strong>two </strong></span><span lang="en-US">maps</span></p>
+</li>
+<li>
+<p style="margin-bottom: 0cm; text-align: justify;">The author name should not appear on the map during the submission and evaluation process. The name should be displayed on the <strong>printed </strong>map at the conference (after the notification of the winners)</p>
+</li>
+</ul>
+<p style="margin-bottom: 0cm"> </p>
+<p style="margin-bottom: 0cm">And final our specification is:</p>
+<p style="margin-bottom: 0cm"> </p>
+<ul>
+<li>The contents of your map are up to you – it is your artwork!</li>
+</ul>
+<p> </p>
+<p style="margin-bottom: 0cm; text-align: justify;">Once you are notified of your map's acceptance, it is your responsibility to print it in color, in A-1 size or bigger and bring it for display at the conference.</p>
+<ul style="text-align: justify;">
+</ul>
+<p style="margin-bottom: 0cm; text-align: justify;"> </p>]]></description>
+			<author>rasgurth@gmail.com (Diego Gargallo Tarín)</author>
+			<category>Guidelines</category>
+			<pubDate>Fri, 06 Jul 2012 14:02:34 +0000</pubDate>
+		</item>
+	</channel>
+</rss>

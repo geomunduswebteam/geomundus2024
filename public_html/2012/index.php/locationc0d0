@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! 1.5 - Open Source Content Management" -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Location</title>
+		<description>Geomundus</description>
+		<link>http://www.geomundus.org/index.php/location</link>
+		<lastBuildDate>Wed, 05 Jun 2013 11:07:37 +0000</lastBuildDate>
+		<generator>Joomla! 1.5 - Open Source Content Management</generator>
+		<language>en-gb</language>
+		<item>
+			<title>Location</title>
+			<link>http://www.geomundus.org/index.php/location/8-location</link>
+			<guid>http://www.geomundus.org/index.php/location/8-location</guid>
+			<description><![CDATA[<p>
+	&nbsp;</p>
+<p style="margin-bottom: 0cm">
+	<br />
+	The conference will be held at the, Instituto Superior de Estatistica e Gestao de Informacao (ISEGI), Universidade Nova de Lisboa located at Campus de Campolide, 1070-312 Lisboa Portugal.</p>
+<p style="margin-bottom: 0cm">
+	&nbsp;</p>
+
+<p style="margin-bottom: 0cm">
+	&nbsp;</p>]]></description>
+			<author>al087714@uji.es (Luis Bausá López)</author>
+			<category>Location</category>
+			<pubDate>Tue, 19 Jun 2012 11:27:45 +0000</pubDate>
+		</item>
+	</channel>
+</rss>

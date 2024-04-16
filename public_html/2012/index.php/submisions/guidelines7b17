@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! 1.5 - Open Source Content Management" -->
+<feed xmlns="http://www.w3.org/2005/Atom"  xml:lang="en-gb">
+	<title type="text">Guidelines</title>
+	<subtitle type="text">Geomundus</subtitle>
+	<link rel="alternate" type="text/html" href="http://www.geomundus.org"/>
+	<id>http://www.geomundus.org/index.php/submisions/guidelines</id>
+	<updated>2013-06-05T11:07:32Z</updated>
+	<generator uri="http://joomla.org" version="1.5">Joomla! 1.5 - Open Source Content Management</generator>
+<link rel="self" type="application/atom+xml" href="http://www.geomundus.org/index.php/submisions/guidelines?format=feed&amp;type=atom" />
+	<entry>
+		<title>Suggested topics</title>
+		<link rel="alternate" type="text/html" href="http://www.geomundus.org/index.php/submisions/guidelines/32-suggested-topics"/>
+		<published>2012-07-19T14:54:36Z</published>
+		<updated>2012-07-19T14:54:36Z</updated>
+		<id>http://www.geomundus.org/index.php/submisions/guidelines/32-suggested-topics</id>
+		<author>
+			<name>Diego Gargallo Tarín</name>
+		<email>rasgurth@gmail.com</email>
+		</author>
+		<summary type="html">&lt;ul&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; &quot;&gt;Environmental, ecological and urban regional modelling using GIS&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;Indoor navigation/modeling&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;Spatial analysis and modelling of urban dynamics&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;Open source in geoscience and environment.&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;Crowdsourcing&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;Spatial data infrastructures&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;Remote sensing segmentation and classification&amp;nbsp;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;Volunteered geographic information&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;GIScience&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;Spatial statistics&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;Location Based Services and mobile applications&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;Webservices and webmapping&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;Augmented reality&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;Climate change modelling&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;Mobile sensor semantics&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;Data and information management&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;Cognition and computation landscape&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;GIS for agriculture&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;GIS for archaeology&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;Spatio-temporal data modelling, analysis and data Visualization&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;Spatio-temporal ontologies&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;Public Participation GIS&amp;nbsp;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;GIS for Change of Land use&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;GIS and Spatial Analysis for Natural Resources, disaster and Risk Management GIS,&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;Spatial Analysis for Landscape Ecology&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary>
+		<content type="html">&lt;ul&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;background-color: rgba(0, 0, 0, 0); color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; &quot;&gt;Environmental, ecological and urban regional modelling using GIS&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;Indoor navigation/modeling&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;Spatial analysis and modelling of urban dynamics&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;Open source in geoscience and environment.&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;Crowdsourcing&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;Spatial data infrastructures&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;Remote sensing segmentation and classification&amp;nbsp;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;Volunteered geographic information&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;GIScience&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;Spatial statistics&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;Location Based Services and mobile applications&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;Webservices and webmapping&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;Augmented reality&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;Climate change modelling&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;Mobile sensor semantics&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;Data and information management&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;Cognition and computation landscape&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;GIS for agriculture&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;GIS for archaeology&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;Spatio-temporal data modelling, analysis and data Visualization&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;Spatio-temporal ontologies&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;Public Participation GIS&amp;nbsp;&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;GIS for Change of Land use&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;GIS and Spatial Analysis for Natural Resources, disaster and Risk Management GIS,&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, Helvetica, sans-serif; line-height: 16px; background-color: rgba(0, 0, 0, 0); &quot;&gt;Spatial Analysis for Landscape Ecology&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+	</entry>
+	<entry>
+		<title>Guidelines for Paper Submission</title>
+		<link rel="alternate" type="text/html" href="http://www.geomundus.org/index.php/submisions/guidelines/20-guidelines-for-paper-submission"/>
+		<published>2012-07-05T22:33:05Z</published>
+		<updated>2012-07-05T22:33:05Z</updated>
+		<id>http://www.geomundus.org/index.php/submisions/guidelines/20-guidelines-for-paper-submission</id>
+		<author>
+			<name>Diego Gargallo Tarín</name>
+		<email>rasgurth@gmail.com</email>
+		</author>
+		<summary type="html">&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;The proposed categories for paper submissions are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Geosciences&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Geographic Information Sciences&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Environmental&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Semantics&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt; &lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;The conference encourages the submission of contributions in one of the these topics or from any of these themes:&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;(This list is NOT exclusive; other topics are welcome.)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Indoor navigation/modeling&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Open source&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Crowdsourcing&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Spatial data infrastructures&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Archaeology&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Urban planning&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Disaster management&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Water resources&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Remote sensing&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Volunteered geographic information&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Mobile application development&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Web application development&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Augmented reality&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Climate change modeling&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Mobile sensor semantics&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Data and information management&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Cognition and computation landscape&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Agriculture&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Ecology and environment&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Growth control&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt; &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;The materials presented in the papers should not have been published before or be under submission elsewhere. They should follow the copyright rules; no copyrighted material may be used without permission. Submissions should be submitted electronically as Microsoft Word 2003 format (*.doc) and also .pdf and they must be written in English. The full paper should be not more than 6 pages in length (A4) and the submission can be made through submissions@geomundus.org or online submission through this website (First you need to register in the website then you can submit).&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Font for text should be Times New Roman, with font size 9 to 12.&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;All papers should start with the abstract. Between 3 and 6 keywords should appear below the abstract, highlighting the main topics of the paper.&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;References should follow the Harvard referencing style, which means that primary references in text should be in the format (Brooks 1997) and should then be listed at the end of the paper as per the following examples:&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Brooks, I. and Weatherston, J. (1997) The Business Environment: Challenges and Changes, Prentice Hall, London.&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;The paper textual content can be based on the paper template found &lt;a href=&quot;http://www.geomundus.org/media/GEOMUNDUS2012_PAPER_TEMPLATE.doc&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm;&quot; align=&quot;JUSTIFY&quot;&gt; &lt;/p&gt;</summary>
+		<content type="html">&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;The proposed categories for paper submissions are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Geosciences&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Geographic Information Sciences&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Environmental&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Semantics&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt; &lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;The conference encourages the submission of contributions in one of the these topics or from any of these themes:&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;(This list is NOT exclusive; other topics are welcome.)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Indoor navigation/modeling&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Open source&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Crowdsourcing&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Spatial data infrastructures&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Archaeology&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Urban planning&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Disaster management&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Water resources&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Remote sensing&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Volunteered geographic information&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Mobile application development&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Web application development&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Augmented reality&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Climate change modeling&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Mobile sensor semantics&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Data and information management&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Cognition and computation landscape&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Agriculture&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Ecology and environment&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Growth control&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt; &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;The materials presented in the papers should not have been published before or be under submission elsewhere. They should follow the copyright rules; no copyrighted material may be used without permission. Submissions should be submitted electronically as Microsoft Word 2003 format (*.doc) and also .pdf and they must be written in English. The full paper should be not more than 6 pages in length (A4) and the submission can be made through submissions@geomundus.org or online submission through this website (First you need to register in the website then you can submit).&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Font for text should be Times New Roman, with font size 9 to 12.&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;All papers should start with the abstract. Between 3 and 6 keywords should appear below the abstract, highlighting the main topics of the paper.&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;References should follow the Harvard referencing style, which means that primary references in text should be in the format (Brooks 1997) and should then be listed at the end of the paper as per the following examples:&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;Brooks, I. and Weatherston, J. (1997) The Business Environment: Challenges and Changes, Prentice Hall, London.&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot; align=&quot;JUSTIFY&quot;&gt;The paper textual content can be based on the paper template found &lt;a href=&quot;http://www.geomundus.org/media/GEOMUNDUS2012_PAPER_TEMPLATE.doc&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm;&quot; align=&quot;JUSTIFY&quot;&gt; &lt;/p&gt;</content>
+	</entry>
+	<entry>
+		<title>Guidelines for Posters Submission</title>
+		<link rel="alternate" type="text/html" href="http://www.geomundus.org/index.php/submisions/guidelines/21-guidelines-for-posters-submission"/>
+		<published>2012-07-06T14:00:15Z</published>
+		<updated>2012-07-06T14:00:15Z</updated>
+		<id>http://www.geomundus.org/index.php/submisions/guidelines/21-guidelines-for-posters-submission</id>
+		<author>
+			<name>Diego Gargallo Tarín</name>
+		<email>rasgurth@gmail.com</email>
+		</author>
+		<summary type="html">&lt;p style=&quot;margin-bottom: 0cm&quot;&gt;
+	&lt;span style=&quot;font-size: medium;&quot;&gt;&lt;strong&gt;Content&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot;&gt;
+	The materials presented in the posters should not have been published before or be under submission elsewhere. They should follow the copyright rules; no copyrighted material may be used without permission.  The submitted posters must respect the following specifications:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+		&lt;p style=&quot;margin-bottom: 0cm&quot;&gt;
+			Full title of the abstract corresponding to the poster&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;p style=&quot;margin-bottom: 0cm&quot;&gt;
+			Names of authors and involved agencies, companies or (educational) institutions&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;p style=&quot;margin-bottom: 0cm&quot;&gt;
+			Max 1000 words&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;p style=&quot;margin-bottom: 0cm&quot;&gt;
+			Brief text, well organized, present only brief results that support your conclusions&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;p style=&quot;margin-bottom: 0cm&quot;&gt;
+			Show the significance of you research&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;p style=&quot;margin-bottom: 0cm&quot;&gt;
+			In general, include:&lt;/p&gt;
+		&lt;ul&gt;
+			&lt;li&gt;
+				&lt;p style=&quot;margin-bottom: 0cm&quot;&gt;
+					Hypothesis&lt;/p&gt;
+			&lt;/li&gt;
+			&lt;li&gt;
+				&lt;p style=&quot;margin-bottom: 0cm&quot;&gt;
+					Methods&lt;/p&gt;
+			&lt;/li&gt;
+			&lt;li&gt;
+				&lt;p style=&quot;margin-bottom: 0cm&quot;&gt;
+					Results&lt;/p&gt;
+			&lt;/li&gt;
+			&lt;li&gt;
+				&lt;p style=&quot;margin-bottom: 0cm&quot;&gt;
+					Conclusions&lt;/p&gt;
+			&lt;/li&gt;
+			&lt;li&gt;
+				&lt;p style=&quot;margin-bottom: 0cm&quot;&gt;
+					Sources / literature used&lt;/p&gt;
+			&lt;/li&gt;
+			&lt;li&gt;
+				&lt;p style=&quot;margin-bottom: 0cm&quot;&gt;
+					Acknowledgements&lt;/p&gt;
+			&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot;&gt;
+	&lt;span style=&quot;font-size: medium;&quot;&gt;&lt;strong&gt;Design&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+		Dimensions: 1.20m x 0.90m (approx. 4&amp;rsquo; x 3&amp;rsquo;)&lt;/li&gt;
+	&lt;li&gt;
+		Arrangement: Clear, simple and uncluttered arrangement&lt;/li&gt;
+	&lt;li&gt;
+		Lettering: Title 8cm in height&lt;/li&gt;
+	&lt;li&gt;
+		Authors&amp;rsquo; names and affiliations somewhat smaller&lt;/li&gt;
+	&lt;li&gt;
+		Everything should be readable from a distance of 1.5m &amp;ndash; 2m (5&amp;rsquo; &amp;ndash; 7&amp;rsquo;)&lt;/li&gt;
+	&lt;li&gt;
+		Use a simple and clear font type. When using colors, make sure to have high contrast&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot;&gt;
+	Once you are notified of your poster's acceptance, it is your responsibility to print it in A-0 size and bring it for display at the conference.&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm;&quot;&gt;
+	 &lt;/p&gt;
+&lt;ul&gt;
+&lt;/ul&gt;</summary>
+		<content type="html">&lt;p style=&quot;margin-bottom: 0cm&quot;&gt;
+	&lt;span style=&quot;font-size: medium;&quot;&gt;&lt;strong&gt;Content&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot;&gt;
+	The materials presented in the posters should not have been published before or be under submission elsewhere. They should follow the copyright rules; no copyrighted material may be used without permission.  The submitted posters must respect the following specifications:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+		&lt;p style=&quot;margin-bottom: 0cm&quot;&gt;
+			Full title of the abstract corresponding to the poster&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;p style=&quot;margin-bottom: 0cm&quot;&gt;
+			Names of authors and involved agencies, companies or (educational) institutions&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;p style=&quot;margin-bottom: 0cm&quot;&gt;
+			Max 1000 words&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;p style=&quot;margin-bottom: 0cm&quot;&gt;
+			Brief text, well organized, present only brief results that support your conclusions&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;p style=&quot;margin-bottom: 0cm&quot;&gt;
+			Show the significance of you research&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;p style=&quot;margin-bottom: 0cm&quot;&gt;
+			In general, include:&lt;/p&gt;
+		&lt;ul&gt;
+			&lt;li&gt;
+				&lt;p style=&quot;margin-bottom: 0cm&quot;&gt;
+					Hypothesis&lt;/p&gt;
+			&lt;/li&gt;
+			&lt;li&gt;
+				&lt;p style=&quot;margin-bottom: 0cm&quot;&gt;
+					Methods&lt;/p&gt;
+			&lt;/li&gt;
+			&lt;li&gt;
+				&lt;p style=&quot;margin-bottom: 0cm&quot;&gt;
+					Results&lt;/p&gt;
+			&lt;/li&gt;
+			&lt;li&gt;
+				&lt;p style=&quot;margin-bottom: 0cm&quot;&gt;
+					Conclusions&lt;/p&gt;
+			&lt;/li&gt;
+			&lt;li&gt;
+				&lt;p style=&quot;margin-bottom: 0cm&quot;&gt;
+					Sources / literature used&lt;/p&gt;
+			&lt;/li&gt;
+			&lt;li&gt;
+				&lt;p style=&quot;margin-bottom: 0cm&quot;&gt;
+					Acknowledgements&lt;/p&gt;
+			&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot;&gt;
+	&lt;span style=&quot;font-size: medium;&quot;&gt;&lt;strong&gt;Design&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+		Dimensions: 1.20m x 0.90m (approx. 4&amp;rsquo; x 3&amp;rsquo;)&lt;/li&gt;
+	&lt;li&gt;
+		Arrangement: Clear, simple and uncluttered arrangement&lt;/li&gt;
+	&lt;li&gt;
+		Lettering: Title 8cm in height&lt;/li&gt;
+	&lt;li&gt;
+		Authors&amp;rsquo; names and affiliations somewhat smaller&lt;/li&gt;
+	&lt;li&gt;
+		Everything should be readable from a distance of 1.5m &amp;ndash; 2m (5&amp;rsquo; &amp;ndash; 7&amp;rsquo;)&lt;/li&gt;
+	&lt;li&gt;
+		Use a simple and clear font type. When using colors, make sure to have high contrast&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot;&gt;
+	Once you are notified of your poster's acceptance, it is your responsibility to print it in A-0 size and bring it for display at the conference.&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm;&quot;&gt;
+	 &lt;/p&gt;
+&lt;ul&gt;
+&lt;/ul&gt;</content>
+	</entry>
+	<entry>
+		<title>Guidelines for Maps Submission</title>
+		<link rel="alternate" type="text/html" href="http://www.geomundus.org/index.php/submisions/guidelines/22-guidelines-for-maps-submission"/>
+		<published>2012-07-06T14:02:34Z</published>
+		<updated>2012-07-06T14:02:34Z</updated>
+		<id>http://www.geomundus.org/index.php/submisions/guidelines/22-guidelines-for-maps-submission</id>
+		<author>
+			<name>Diego Gargallo Tarín</name>
+		<email>rasgurth@gmail.com</email>
+		</author>
+		<summary type="html">&lt;p style=&quot;text-align: justify;&quot;&gt;The materials presented in the maps should not have been published before or be under submission elsewhere. They should follow the copyright rules; no copyrighted material may be used without permission. The submitted maps must respect the following specifications:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot;&gt;&lt;span lang=&quot;en-US&quot;&gt;They have to be submitted in a digital format, either &lt;/span&gt;&lt;span lang=&quot;en-US&quot;&gt;&lt;strong&gt;pdf&lt;/strong&gt;&lt;/span&gt;&lt;span lang=&quot;en-US&quot;&gt; or any &lt;/span&gt;&lt;span lang=&quot;en-US&quot;&gt;&lt;strong&gt;picture format.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot;&gt;&lt;span lang=&quot;en-US&quot;&gt;The map size and resolution should be enough to be able to be printed in &lt;/span&gt;&lt;span lang=&quot;en-US&quot;&gt;&lt;strong&gt;A1 &lt;/strong&gt;or &lt;strong&gt;larger size&lt;/strong&gt;&lt;/span&gt;&lt;span lang=&quot;en-US&quot;&gt; paper&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot;&gt;&lt;span lang=&quot;en-US&quot;&gt;Each sender should not send more than &lt;/span&gt;&lt;span lang=&quot;en-US&quot;&gt;&lt;strong&gt;two &lt;/strong&gt;&lt;/span&gt;&lt;span lang=&quot;en-US&quot;&gt;maps&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm; text-align: justify;&quot;&gt;The author name should not appear on the map during the submission and evaluation process. The name should be displayed on the &lt;strong&gt;printed &lt;/strong&gt;map at the conference (after the notification of the winners)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot;&gt; &lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot;&gt;And final our specification is:&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot;&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The contents of your map are up to you – it is your artwork!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm; text-align: justify;&quot;&gt;Once you are notified of your map's acceptance, it is your responsibility to print it in color, in A-1 size or bigger and bring it for display at the conference.&lt;/p&gt;
+&lt;ul style=&quot;text-align: justify;&quot;&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;margin-bottom: 0cm; text-align: justify;&quot;&gt; &lt;/p&gt;</summary>
+		<content type="html">&lt;p style=&quot;text-align: justify;&quot;&gt;The materials presented in the maps should not have been published before or be under submission elsewhere. They should follow the copyright rules; no copyrighted material may be used without permission. The submitted maps must respect the following specifications:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot;&gt;&lt;span lang=&quot;en-US&quot;&gt;They have to be submitted in a digital format, either &lt;/span&gt;&lt;span lang=&quot;en-US&quot;&gt;&lt;strong&gt;pdf&lt;/strong&gt;&lt;/span&gt;&lt;span lang=&quot;en-US&quot;&gt; or any &lt;/span&gt;&lt;span lang=&quot;en-US&quot;&gt;&lt;strong&gt;picture format.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot;&gt;&lt;span lang=&quot;en-US&quot;&gt;The map size and resolution should be enough to be able to be printed in &lt;/span&gt;&lt;span lang=&quot;en-US&quot;&gt;&lt;strong&gt;A1 &lt;/strong&gt;or &lt;strong&gt;larger size&lt;/strong&gt;&lt;/span&gt;&lt;span lang=&quot;en-US&quot;&gt; paper&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot;&gt;&lt;span lang=&quot;en-US&quot;&gt;Each sender should not send more than &lt;/span&gt;&lt;span lang=&quot;en-US&quot;&gt;&lt;strong&gt;two &lt;/strong&gt;&lt;/span&gt;&lt;span lang=&quot;en-US&quot;&gt;maps&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p style=&quot;margin-bottom: 0cm; text-align: justify;&quot;&gt;The author name should not appear on the map during the submission and evaluation process. The name should be displayed on the &lt;strong&gt;printed &lt;/strong&gt;map at the conference (after the notification of the winners)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot;&gt; &lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot;&gt;And final our specification is:&lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm&quot;&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The contents of your map are up to you – it is your artwork!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p style=&quot;margin-bottom: 0cm; text-align: justify;&quot;&gt;Once you are notified of your map's acceptance, it is your responsibility to print it in color, in A-1 size or bigger and bring it for display at the conference.&lt;/p&gt;
+&lt;ul style=&quot;text-align: justify;&quot;&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;margin-bottom: 0cm; text-align: justify;&quot;&gt; &lt;/p&gt;</content>
+	</entry>
+</feed>

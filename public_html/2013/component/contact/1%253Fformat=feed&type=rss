@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! 1.5 - Open Source Content Management" -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Geomundus</title>
+		<description>Geomundus</description>
+		<link>http://geomundus.org/2013/component/contact/1</link>
+		<lastBuildDate>Tue, 10 Mar 2015 10:46:26 +0000</lastBuildDate>
+		<generator>Joomla! 1.5 - Open Source Content Management</generator>
+		<language>en-gb</language>
+		<managingEditor>info@geomundus.org (GeoMundus.org)</managingEditor>
+	</channel>
+</rss>

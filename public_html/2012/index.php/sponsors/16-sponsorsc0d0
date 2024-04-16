@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! 1.5 - Open Source Content Management" -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Sponsors</title>
+		<description>Geomundus</description>
+		<link>http://www.geomundus.org/index.php/sponsors/16</link>
+		<lastBuildDate>Wed, 05 Jun 2013 11:07:42 +0000</lastBuildDate>
+		<generator>Joomla! 1.5 - Open Source Content Management</generator>
+		<language>en-gb</language>
+		<managingEditor>info@geomundus.org (GeoMundus.org)</managingEditor>
+		<item>
+			<title>European Commission’s Erasmus Mundus programme</title>
+			<link>http://www.geomundus.org/index.php/sponsors/4</link>
+			<guid>http://www.geomundus.org/index.php/sponsors/4</guid>
+			<description><![CDATA[]]></description>
+			<category>Weblinks</category>
+			<pubDate>Tue, 19 Jun 2012 08:47:17 +0000</pubDate>
+		</item>
+		<item>
+			<title>EMA</title>
+			<link>http://www.geomundus.org/index.php/sponsors/7</link>
+			<guid>http://www.geomundus.org/index.php/sponsors/7</guid>
+			<description><![CDATA[Erasmus Mundus Students and Alumni Association]]></description>
+			<category>Weblinks</category>
+			<pubDate>Thu, 05 Jul 2012 12:42:43 +0000</pubDate>
+		</item>
+		<item>
+			<title>Master GeoTech</title>
+			<link>http://www.geomundus.org/index.php/sponsors/13</link>
+			<guid>http://www.geomundus.org/index.php/sponsors/13</guid>
+			<description><![CDATA[Main portal of the Master of Science in Geospatial Technologies]]></description>
+			<category>Weblinks</category>
+			<pubDate>Wed, 18 Jul 2012 07:00:19 +0000</pubDate>
+		</item>
+		<item>
+			<title>Universitat Jaume I</title>
+			<link>http://www.geomundus.org/index.php/sponsors/6</link>
+			<guid>http://www.geomundus.org/index.php/sponsors/6</guid>
+			<description><![CDATA[Main site of Universitat Jaume I (UJI) Castellon (Spain)]]></description>
+			<category>Weblinks</category>
+			<pubDate>Fri, 13 Jul 2012 13:35:38 +0000</pubDate>
+		</item>
+		<item>
+			<title>INIT</title>
+			<link>http://www.geomundus.org/index.php/sponsors/8</link>
+			<guid>http://www.geomundus.org/index.php/sponsors/8</guid>
+			<description><![CDATA[Institute of New Imaging Tecnologies
+Universitat Jaume I]]></description>
+			<category>Weblinks</category>
+			<pubDate>Fri, 13 Jul 2012 13:34:41 +0000</pubDate>
+		</item>
+		<item>
+			<title>Westfälische Wilhelms-Universität</title>
+			<link>http://www.geomundus.org/index.php/sponsors/14</link>
+			<guid>http://www.geomundus.org/index.php/sponsors/14</guid>
+			<description><![CDATA[Main portal of the Westfälische Wilhelms-Universität Münster, Germany]]></description>
+			<category>Weblinks</category>
+			<pubDate>Fri, 13 Jul 2012 13:37:37 +0000</pubDate>
+		</item>
+		<item>
+			<title>IFGI</title>
+			<link>http://www.geomundus.org/index.php/sponsors/5</link>
+			<guid>http://www.geomundus.org/index.php/sponsors/5</guid>
+			<description><![CDATA[Institute for GeoInformatics, WWU Münster (Germany)]]></description>
+			<category>Weblinks</category>
+			<pubDate>Tue, 19 Jun 2012 08:49:16 +0000</pubDate>
+		</item>
+		<item>
+			<title>ISEGI</title>
+			<link>http://www.geomundus.org/index.php/sponsors/9</link>
+			<guid>http://www.geomundus.org/index.php/sponsors/9</guid>
+			<description><![CDATA[Instituto Superior de Estatística y Gestão de la Informação
+Universidade Nova de Lisboa]]></description>
+			<category>Weblinks</category>
+			<pubDate>Fri, 13 Jul 2012 13:32:06 +0000</pubDate>
+		</item>
+		<item>
+			<title>Geomundus page in EMA</title>
+			<link>http://www.geomundus.org/index.php/sponsors/16</link>
+			<guid>http://www.geomundus.org/index.php/sponsors/16</guid>
+			<description><![CDATA[]]></description>
+			<category>Weblinks</category>
+			<pubDate>Wed, 25 Jul 2012 20:37:01 +0000</pubDate>
+		</item>
+		<item>
+			<title>Innovatig</title>
+			<link>http://www.geomundus.org/index.php/sponsors/17</link>
+			<guid>http://www.geomundus.org/index.php/sponsors/17</guid>
+			<description><![CDATA[Sponsor GeoMundus 2012
+Innovación en Tecnologías de Información Geográfica
+]]></description>
+			<category>Weblinks</category>
+			<pubDate>Wed, 10 Oct 2012 06:46:15 +0000</pubDate>
+		</item>
+	</channel>
+</rss>

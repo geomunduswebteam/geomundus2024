@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! 1.5 - Open Source Content Management" -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Sessions</title>
+		<description>Geomundus</description>
+		<link>http://www.geomundus.org/index.php/program/sessions</link>
+		<lastBuildDate>Wed, 05 Jun 2013 11:07:18 +0000</lastBuildDate>
+		<generator>Joomla! 1.5 - Open Source Content Management</generator>
+		<language>en-gb</language>
+		<item>
+			<title>Sessions description</title>
+			<link>http://www.geomundus.org/index.php/program/sessions/28-sessions-description</link>
+			<guid>http://www.geomundus.org/index.php/program/sessions/28-sessions-description</guid>
+			<description><![CDATA[<h2 style="text-align: justify; ">Thursday, November 8</h2>
+<h3>4:30pm - Unofficial meet-up for early arrivals</h3>
+<p>Everyone is invited to meet in the city center and hang out the night before the conference begins.  The location is the Miradour de Graca.</p>
+<h2 style="text-align: justify; "><span style="color: #000000; line-height: 13.63636302947998px;">Friday, November 9</span></h2>
+<h3 style="margin-bottom: 0cm; line-height: 100%; text-align: justify; "><span style="color: #000000;">11:00am-12:30pm - Geosciences session</span></h3>
+<p style="margin-bottom: 0cm; line-height: 100%; text-align: justify; "><span style="color: #000000;">Students and researchers will present papers on topics under the broad heading of the geosciences. Examples could be growth control, archaeology, indoor navigation modeling, web and mobile application development and augmented reality.</span></p>
+<p style="margin-bottom: 0cm; line-height: 100%; text-align: justify; "> </p>
+<h3 style="margin-bottom: 0cm; line-height: 100%; text-align: justify; "><span style="color: #000000;">3:00-4:30pm - GI Science session</span></h3>
+<p style="margin-bottom: 0cm; line-height: 100%; text-align: justify; "><span style="color: #000000;">Students and researchers will present papers on topics related to using GIS to solve problems, including remote sensing, ArcGIS and open source GIS applications.</span></p>
+<p style="margin-bottom: 0cm; line-height: 100%; text-align: justify; "> </p>
+<h3 style="margin-bottom: 0cm; line-height: 100%; text-align: justify; "><span style="color: #000000;">4:30-5:30pm – </span><span style="color: #000000;">Career development session</span></h3>
+<p style="margin-bottom: 0cm; line-height: 100%; text-align: justify; "><span style="color: #000000;">Michael Gould of ESRI and UJI will give a presentation on Business and GIS. After this he will be joined by the three keynote speakers in a round table-type discussion. Participants will have the opportunity to ask career-related questions to each and all of our esteemed guests and hear about their experiences, expectations and advice.</span></p>
+<p style="margin-bottom: 0cm; line-height: 100%; text-align: justify; "> </p>
+<h3 style="margin-bottom: 0cm; line-height: 100%; text-align: justify; "><span style="color: #000000;">5:30-7:00pm – Environmental session</span></h3>
+<p style="margin-bottom: 0cm; line-height: 100%; text-align: justify; "><span style="color: #000000;">Students and researchers will present papers on topics which are related to the environment, such as disaster management, urban planning, water resources, agriculture, climate change modeling and ecology.</span></p>
+<p style="margin-bottom: 0cm; line-height: 100%; text-align: justify; "> </p>
+<h3><span style="line-height: 11.818181991577148px;">8:30pm – Conference dinner</span></h3>
+<p style="margin-bottom: 0cm; line-height: 100%; text-align: justify; "><span style="line-height: 11.818181991577148px;">Participants are all invited for the conference dinner as guests of GeoMundus, </span><span style="line-height: 11.818181991577148px;">at Adega das Gravatas, where you can taste Portuguese cuisine in a lovely traditional restaurant setting.  This will be an opportunity to do some social networking with your peers and colleagues.</span></p>
+<p> </p>
+<h2 style="margin-bottom: 0cm; line-height: 100%; text-align: justify; "><span style="color: #000000;">Saturday, November 10</span></h2>
+<h3 style="margin-bottom: 0cm; line-height: 100%; text-align: justify; "><span style="color: #000000;">11:00am-12:00pm - Semantics session</span></h3>
+<p style="margin-bottom: 0cm; line-height: 100%; text-align: justify; "><span style="color: #000000;">Students and researchers will present papers on topics to do with semantics. This encompasses spatial data infrastructures, cognition and computation landscapes and managing volunteered geographic information collection including mobile sensor semantics.</span></p>
+<p style="margin-bottom: 0cm; line-height: 100%; text-align: justify; "> </p>
+<h3 style="margin-bottom: 0cm; line-height: 100%; text-align: justify; "><span style="color: #000000;">2:00-3:00pm - Workshops: Choose one of the following:</span></h3>
+<h4 style="margin-bottom: 0cm; line-height: 100%; text-align: justify; "><span style="color: #000000;">GIS: Online map creation and sharing</span></h4>
+<p style="margin-bottom: 0cm; line-height: 100%; text-align: justify; "><span style="color: #000000;">We will have a workshop showing how to use ArcGIS online and GIS Cloud and how to use our own data there. Participants will learn how to use these web tools to build maps and share them online.</span></p>
+<p style="margin-bottom: 0cm; line-height: 100%; text-align: justify; "><span style="color: #000000;">or</span></p>
+<h4 style="margin-bottom: 0cm; line-height: 100%; text-align: justify; "><span style="color: #000000;">GeoDroid: Programming mobile apps for Android</span></h4>
+<p style="margin-bottom: 0cm; line-height: 100%; text-align: justify; "><span style="color: #000000;">We will have an alternate workshop showing the basic steps and tricks for creating and implementing our own mobile applications using the Android platform.</span></p>
+<p style="margin-bottom: 0cm; line-height: 100%; text-align: justify; "> </p>
+<h3 style="margin-bottom: 0cm; line-height: 100%; text-align: justify; "><span style="color: #000000;">3:30-4:30pm – Paper session</span></h3>
+<p style="margin-bottom: 0cm; line-height: 100%; text-align: justify; "> </p>
+<h3><span style="color: #000000;"><span style="color: #000000;">5:00-8:00pm – Scavenger hunt and tour around Lisbon</span></span></h3>
+<p style="margin-bottom: 0cm; line-height: 100%; text-align: justify; "><span style="color: #000000;"><span style="line-height: 11.818181991577148px;">Participants will be asked to form a number of groups.  Each group will be given a list of points of interest in central Lisbon with questions about each one.  The groups can wander about as the like, but the questions will follow a sensible order and there will be hints about the next stop at each point.  Groups can try to find the answers to the questions at their own pace, and the group with the most correct answers (who also arrives at the final destination for dinner) will receive a prize.</span></span></p>
+<h3><span style="color: #000000;"><span style="line-height: 11.818181991577148px;"><span style="color: #000000;">8:00pm – Unofficial Dinner</span></span></span></h3>
+<p style="margin-bottom: 0cm; line-height: 100%; text-align: justify; "><span style="color: #000000;"><span style="line-height: 11.818181991577148px;"><span style="color: #000000;">The final stop in the scavenger hunt will be a restaurant (still to be determined) where we can have a nice dinner.  This dinner is self-pay.  There is no need to have participated in the scavenger hunt to join us for dinner!</span></span></span></p>]]></description>
+			<author>rasgurth@gmail.com (Diego Gargallo Tarín)</author>
+			<category>Sessions</category>
+			<pubDate>Tue, 10 Jul 2012 21:15:07 +0000</pubDate>
+		</item>
+	</channel>
+</rss>
