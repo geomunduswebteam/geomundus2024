@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Program</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="expires" content="0"><!-- Never caches the page -->
+    <link id="favicon" rel="shortcut icon" href="images/main/GEO_Mundus_Conference_2023_Icon.png">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/gallery.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/elastislide.css" />
+    <script src="https://kit.fontawesome.com/b37653d681.js"></script>
+    <script>
+        // Toggle buttons (+) that can be found in the schedule
+        function toggle(a) {
+            var x = a;
+            var b = a.innerHTML;
+            if (x.nextElementSibling.style.display === 'none') {
+                b = b.split('+');
+                b = "-" + b[1];
+                a.innerHTML = b;
+                x.nextElementSibling.style.display = 'block';
+            } else {
+                b = b.split('-');
+                b = "+" + b[1];
+                a.innerHTML = b;
+                x.nextElementSibling.style.display = 'none';
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <!-- MENU -->
+    <nav>
+        <ul class="menu">
+            <a href="index.html#header"><img class='menu_logo' src="images/main/GEO_Mundus_Conference_2023_Hori.png"
+                    alt=""></a>
+            <li class="item has-dropdown"><a>Program</a>
+                <ul class="main-menu-dropdown">
+                    <li><a href="program.html">Schedule</a></li>
+                    <li><a href="speakers.html#keynotes">Keynote Speakers</a></li>
+                    <li><a href="speakers.html#workshops">Workshop Leaders</a></li>
+                </ul>
+            </li>
+            <li class="item"><a href="registration.html">Registration</a></li>
+            <li class="item has-dropdown"><a>Submissions</a>
+                <ul class="main-menu-dropdown">
+                    <li><a href="submission.html#papers">Paper and Poster</a></li>
+                    <li style="display: none;"><a href="mapathon.html">Mapathon</a></li>
+                </ul>
+            </li>
+            <li class="item"><a href="index.html#sponsors">Sponsors</a></li>
+            <li class="item"><a href="teams.html">Team</a></li>
+            <li class="item"><a href="index.html#contact">Contact</a></li>
+            <li class="item"><a href="faq.html">FAQ</a></li>
+            <li class="item has-dropdown"><a>Previous Editions</a>
+                <ul class="main-menu-dropdown">
+                    <li><a href="https://geomundus.org/2023/">2023 Castelló</a></li>
+                    <li><a href="https://geomundus.org/2022/">2022 Lisboa</a></li>
+                    <li><a href="https://geomundus.org/2021/">2021 Lisboa</a></li>
+                    <li><a href="https://geomundus.org/2020/">2020 Münster</a></li>
+                    <li><a href="https://geomundus.org/2019/">2019 Castelló</a></li>
+                    <li><a href="https://geomundus.org/2018/">2018 Lisboa</a></li>
+                    <li><a href="https://geomundus.org/2017/">2017 Münster</a></li>
+                    <li><a href="https://geomundus.org/2016/">2016 Castelló</a></li>
+                    <li><a href="https://geomundus.org/2015/">2015 Lisboa</a></li>
+                    <li><a href="https://geomundus.org/2014/">2014 Münster</a></li>
+                    <li><a href="https://geomundus.org/2013/">2013 Castelló</a></li>
+                    <li><a href="https://geomundus.org/2012/index-2.html">2012 Lisboa</a></li>
+                    <li><a href="https://geomundus.org/2011/index2011.php">2011 Münster</a></li>
+                    <li><a href="https://geomundus.wordpress.com/">2010 Castelló</a></li>
+                    <li><a href="https://geomundus.wordpress.com/previous-editions/geomundus-2009/">2009 Lisboa</a></li>
+                </ul>
+            </li>
+            <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+        </ul>
+    </nav>
+
+    <!-- SCHEDULE -->
+    <section id="program" class="main style2">
+        <div class="container">
+            <header class="major">
+                <h2 style="color: #ffffff;">Schedule</h2>
+            </header>
+            <p style="color: #ffffff;">Please note that all time slots mentioned below are based on Western European
+                Summer Time (UTC+1).
+                The provided schedule is subject to change and will be continually updated as more information regarding
+                speakers and workshops becomes available.
+            </p>
+            <br>
+            <div id="responsiveTabsDemo" class="css3-tabstrip">
+                <ul class="table_list">
+                    <li>
+                        <input type="radio" name="css3-tabstrip-0" checked id="css3-tabstrip-0-1" /><label
+                            for="css3-tabstrip-0-1">Thursday, 19th</label>
+                        <div class="table-wrapper" style="height: fit-content">
+                            <table class="alt">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 10%">Time</th>
+                                        <th>Description</th>
+                                    </tr>
+                                <tbody>
+                                    <tr>
+                                        <td>18:00</td>
+                                        <td>
+                                            <a onclick="toggle(this)" class="program-dropdown-main">+ Castellón City
+                                                Tour (Informal Event)</a>
+                                            <span style="display: none;">
+                                                <a class="program-dropdown-sub">
+                                                    We extend a warm invitation to all participants of GeoMundus 2024
+                                                    for an enchanting tour of the captivating city center of Castellon.
+                                                    Get ready to mingle with incredible individuals, enjoy a refreshing
+                                                    drink, and immerse yourself in the vibrant atmosphere of the
+                                                    GeoMundus conference. The event will take place on Thursday,
+                                                    November 19th 2023, at 18:00. We will meet at El Corte Inglés,
+                                                    located on Passeig de Morella in Castellón de la Plana.
+                                                    Please note that this gathering is intended to be informal.
+                                                    Participants will be responsible for covering the cost of their own
+                                                    drinks or snacks.
+                                                </a>
+                                            </span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="css3-tabstrip-0" checked id="css3-tabstrip-0-2" /><label
+                            for="css3-tabstrip-0-2">Friday, 20th</label>
+                        <div class="table-wrapper" style="height: fit-content">
+                            <table class="alt">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 10%">Time</th>
+                                        <th>Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>8:45</td>
+                                        <td>Registration</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9:30</td>
+                                        <td>
+                                            <a onclick="toggle(this)" class="program-dropdown-main">+ Opening
+                                                Ceremony</a>
+                                            <span style="display: none; text-align:justify;">
+                                                This session will mark the official commencement of the conference. Its
+                                                purpose is to warmly welcome the audience, offer an overview of the
+                                                program's history, and introduce esteemed keynote speakers to the
+                                                attendees.
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>10:00</td>
+                                        <td>
+                                            <a onclick="toggle(this)" class="program-dropdown-main">+ Keynote Presentation 1</a>
+                                            <span style="display: none; text-align:justify;">
+                                                <!--<a class="program-dropdown-sub" href="./speakers.html#speaker-1" target="_blank">-->
+                                                    Prof. Andy Nelson 
+                                                    <br>
+                                                    Title: “The role of Earth observation in improving food systems”  
+                                                    <br>
+                                                    Abstract:   This keynote starts with the current state of food security and food systems. It outlines how urgent the situation is. The second part shows examples of how Earth observation and other geographic information can help understand the pressures and drivers in food systems thus contributing to a more food secure future.                                                   
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>10:45</td>
+                                        <td>Coffee Break</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11:15</td>
+                                        <td>
+                                            <a onclick="toggle(this)" class="program-dropdown-main">+ Paper Presentation
+                                                Session 1</a>
+                                            <span style="display: none; text-align: justify-center;">
+                                                1. Saad Ahmed Jamal (Travel support winner)
+                                                <br>
+                                                Title: “Data Fusion for Multi-task Learning of Building Extraction and Height Estimation”
+                                                <br>
+                                                2. Guilherme Viegas
+                                                <br>
+                                                Title: “Unveiling human capital disparities between Santa Catarina and Portugal: A geographical descriptive analysis almost two centuries after independence”
+                                                </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>11:45</td>
+                                        <td>
+                                            <a onclick="toggle(this)" class="program-dropdown-main">+ Poster Presentation Session</a>
+                                            <span style="display: none; text-align: justify-center;">
+                                                1. Saad Ahmad Jamal
+                                                <br>
+                                                Title: “Development of Automated Irrigation system”
+                                                <br>
+                                                2. Jordan Steven Bates
+                                                <br>
+                                                Title: “UAS Multi-Sensor Integration with a Two-Source Energy Balance Model for Evapotranspiration Estimations for the Entire Growing Season of Sugar Beet”
+                                                <br>
+                                                3. Abran Idrees
+                                                <br>
+                                                Title: “Assessing Flooded Cropland using SAR satellite imagery: A case study in Larkana district, Sindh province in Pakistan for the 2022 flood”
+                                                <br>
+                                                4. Fahima Begum
+                                                <br>
+                                                Title: “Monitoring Air Quality Changes in Bangladesh Between 2019 to 2021 Using Sentinel 5P Imagery”
+                                                <br>
+                                                5. Kamal Shahi and Ngoran Serge Fondzefe
+                                                <br>
+                                                Title: “Automated Landslide Mapping using Deep Learning”
+                                                <br>
+                                                6. Afsaneh Rasoulian Lafmjani
+                                                <br>
+                                                Title: “Assessment and Mapping of Access to Public Transportation in the City of Chattanooga”
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>12:15 </td>
+                                        <td> Lunch Break </td>
+                                    </tr>
+                                    <tr>
+                                        <td>13:45</td>
+                                        <td>
+                                            <a onclick="toggle(this)" class="program-dropdown-main">+ Keynote Presentation 2</a>
+                                            <span style="display: none;">
+                                                    Aida Monfort Muriach
+                                                    <br>
+                                                    Title: “Gender equity in the GI/EO sector initiatives: Women in Copernicus 
+                                                    and Women+ in Geospatial”
+                                                    <br>
+                                                    Abstract: Women+ in Geospatial and Women in Copernicus are two of the many initiatives that want to empower, inspire, and make visible women working in the GIS and EO sectors. These two networks have different resources and activities, such as surveys, mentoring programs, and the speaker's database, which help other women reach higher positions, strong technical jobs, and even speaker roles that are mostly occupied by men. The high answer rate of the surveys, the regular activity in social media and in private groups, and the general interest that these activities entail prove the need for such initiatives.
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>14:30</td>
+                                        <td>
+                                            <a onclick="toggle(this)" class="program-dropdown-main">+ Paper Presentation
+                                                Session 2</a>
+                                            <span style="display: none; text-align: justify-center;">
+                                                Aleksandra Jastrzębska
+                                                <br>
+                                                Title: “Concept and development of an expert system to identify optimal locations for kitesurfing using Python language”                                                
+                                               </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>14:45</td>
+                                        <td>
+                                            <a onclick="toggle(this)" class="program-dropdown-main">+ Interactive Session</a>
+                                            <span style="display: none; text-align: justify-center;">
+                                                Presentation conducted by Ngoran Serge Fondzefe 
+                                                <br>
+                                                Title: “Embracing Entrepreneurship in GIS: Pioneering Your Path"
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>15:00</td>
+                                        <td> Coffee Break </td>
+                                    </tr>
+                                    <tr>
+                                        <td>15:30</td>
+                                        <td>
+                                            <a onclick="toggle(this)" class="program-dropdown-main">+ Sponsor
+                                                Presentation</a>
+                                            <span style="display: none; text-align: justify-center;">
+                                                1. Prof. Michael Gould from Esri
+                                                <br>
+                                                2. Hector Huertas from Conterra
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>16:15</td>
+                                        <td>
+                                            <a onclick='toggle(this)' class="program-dropdown-main">+ Alumni
+                                                Session</a>
+                                            <span style="display:none; text-align: justify-center;">
+                                                Following Geotech alumni will share their work experiences and future prospects during the event.
+                                                <br>
+                                                1. Sergi Sanchis
+                                                <br>
+                                                2. Andre Kotze
+                                                <br>
+                                                3. Vicente Tang
+                                                <br>
+                                                4. Itza Hernandes
+                                                <br>
+                                                5. Ignacio Ponsoda                                                
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>16:45</td>
+                                        <td>Closing First Day</td>
+                                    </tr>
+                                    <tr>
+                                        <td>19:15</td>
+                                        <td>
+                                            <a onclick='toggle(this)' class="program-dropdown-main">+ The Conference
+                                                Dinner</a>
+                                            <span style="display: none;">
+                                                The conference dinner will happen at <a href="https://maps.app.goo.gl/sAq7Xff9EfcNDVdy8">Giuliani's Centro Restaurant</a>. We sincerely hope that you will join us in this celebratory gathering and seize the opportunity to network and foster connections. Please be aware that there is a limit to the number of participants, so we encourage you to register well in advance if you wish to take part.
+                                            </span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="css3-tabstrip-0" id="css3-tabstrip-0-3" />
+                        <label for="css3-tabstrip-0-3">Saturday, 21st</label>
+                        <div class="table-wrapper" style="height:fit-content">
+                            <table class="alt">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 10%">Time</th>
+                                        <th>Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>9:30</td>
+                                        <td>Registration</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10:00</td>
+                                        <td><a class="program-dropdown-main">Resume the conference & Keynote
+                                                Introduction</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>10:15</td>
+                                        <td>
+                                            <a onclick="toggle(this)" class="program-dropdown-main">+ Keynote
+                                                Presentation 3</a>
+                                            <span style="display: none; text-align:justify;">
+                                                Maria Arias De Reyna Dominguez
+                                                <br>
+                                                Title: “The Future of the Developer Tooling for Geospatial”
+                                                <br>
+                                                Abstract: There's a lot of uncertainty on what is going to be the future for developers
+                                                and developer tooling. Are low code or even no code frameworks going to replace full developers?
+                                                Is AI going to take our jobs? How do we know which trend is the right one that we should jump in? 
+                                                Are we reinventing the wheel? In this talk, we will try to summarize the current state of the art
+                                                on developer tooling and make an educated guess on what would be our best bet. Should we be worried
+                                                or is this the advent of a bright new future?                                                
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>11:00</td>
+                                        <td>
+                                            <a onclick="toggle(this)" class="program-dropdown-main">+ Paper Presentation
+                                                Session 3</a>
+                                                <span style="display: none; text-align: justify-center;">
+                                                    1. Oluwafemi John Ifejube (Travel support winner)
+                                                    <br>
+                                                    Title: “Risk Assessment of Cholera Epidemic in Cameroon”
+                                                    <br>
+                                                    2. Fırat Gündem
+                                                    <br>
+                                                    Title: “The Spatial Roots of Voting Behavior and Spatial Regimes: The Turkish General Elections (2018) Case”
+                                                </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>11:30</td>
+                                        <td>Coffee Break</td>
+                                    </tr>
+                                    <tr>
+                                        <td>12:00</td>
+                                        <td>
+                                            <a onclick="toggle(this)" class="program-dropdown-main">+ Paper Presentation Session 4</a>
+                                            <span style="display: none; text-align: justify-center;">
+                                                1. Muhammad Qasim (online)
+                                                <br>
+                                                Title: “Flood Risk Assessment using Geospatial Technologies: A Case Study of Mirpur Division, Azad Jammu and Kashmir, Pakistan”
+                                                <br>
+                                                2.  Monica Sofia R. Blanco and Gabriel dos Santos Duarte
+                                                <br>
+                                                Title: “Renaturation of River Aa: Geospatial Insights for Münster Region's Ecological Restoration”
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>12:30</td>
+                                        <td>
+                                            <a onclick="toggle(this)" class="program-dropdown-main">+ Overview of
+                                                Workshop Session</a>
+                                            <span style="display: none;">
+                                                The audience will receive a concise overview of the workshop sessions,
+                                                providing them with a glimpse of the topics and activities that will be
+                                                covered.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>12:45 </td>
+                                        <td> Lunch Break </td>
+                                    </tr>
+                                    <tr>
+                                        <td>14:30</td>
+                                        <td>
+                                            <a onclick="toggle(this)" class="program-dropdown-main">+ Keynote Presentation 4</a>
+                                            <span style="display: none;">
+                                                Dr. Qiusheng Wu
+                                                <br>
+                                                Title: “Interactive Geospatial Analysis with Cloud Computing and Open Source Software”
+                                                <br>
+                                                Abstract: Satellite data are critical for a wide range of environmental applications. In the past, access to satellite data was limited to researchers and professionals with expertise in remote sensing and image processing. However, with the increasing availability of open-access satellite data and cloud-computing platforms such as Google Earth Engine, Microsoft Planetary Computer, and Amazon Web Services, anyone can now gain insight into environmental changes on a planetary scale. This presentation will introduce open-source packages, data catalogs, and interactive web apps designed to empower users in harnessing the full potential of cloud computing for geospatial analysis. These user-friendly and accessible tools enable researchers, students, and environmental professionals to explore and analyze satellite data for diverse environmental applications. 
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>15:15</td>
+                                        <td>
+                                            Coffee Break and Networking Session
+                                            <br>
+                                            During this session, the audience will have the opportunity to engage in informal 
+                                            discussions with the keynote speakers, sponsors, workshop leaders and Geotech alumni.
+                                            It will provide a valuable platform for exchanging ideas and networking with these 
+                                            esteemed individuals.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>15:45</td>
+                                        <td>
+                                            <a onclick='toggle(this)' class="program-dropdown-main">+Workshop Session</a>
+                                            <span style="display: none;">
+                                                Workshop 1 conducted by Onyeukwu Nnadozie Uzoma and Nyi Nyi Nyan Lin
+                                                <br>
+                                                Topic: “Application of Unmanned Aerial Vehicle System in Geoinformatics for Sustainable Development”
+                                                <br>
+                                                Workshop 2conducted by Itza Hernandez-Sequeira
+                                                <br>
+                                                Topic: “Semi-supervised Learning for Aerial Scene Classification with Deep Learning”
+                                                <br>
+                                                Workshop 3 conducted by Babatunde David Aremu
+                                                <br>
+                                                Topic: “Exploring Sustainable Solutions with Google Earth Engine: Assessing Recent Flooding Events in Libya”
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>18:30</td>
+                                        <td>Closing Ceremony of the Conference</td>
+                                    </tr>
+                                    <tr>
+                                        <td>18:45</td>
+                                        <td>Conference End</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer: SOCIAL NETWORKS -->
+    <section id="footer">
+        <div class="container">
+            <br>
+            <section id="social_networks">
+                <ul class="icons">
+                    <li><a href="https://twitter.com/geomundus_conf" class="icon alt fa-twitter" target="_blank"><span
+                                class="label">Twitter</span></a></li>
+                    <li><a href="https://www.facebook.com/geomundus/?fref=ts" class="icon alt fa-facebook"
+                            target="_blank"><span class="label">Facebook</span></a></li>
+                    <li><a href="https://www.instagram.com/geomundus_conference/" class="icon alt fa-instagram"
+                            target="_blank"><span class="label">Instagram</span></a></li>
+                    <li><a href="https://github.com/erasmus-mundus-geotech-master/" class="icon alt fa-github"
+                            target="_blank"><span class="label">GitHub</span></a></li>
+                    <li><a href="https://www.linkedin.com/in/geomundus-team-6b3b8b23a/" class="icon alt fa-linkedin"
+                            target="_blank"><span class="label">GitHub</span></a></li>
+                </ul>
+            </section>
+
+
+            <ul class="copyright">
+                <li><a href="https://github.com/erasmus-mundus-geotech-master/Geomundus2021" target="_blank"> &copy;
+                        GeoMundus 2024</a></li>
+                <li>Designed by GeoMundus Web Team</li>
+            </ul>
+        </div>
+    </section>
+
+</body>
+
+</html>
