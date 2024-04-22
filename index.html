@@ -87,7 +87,25 @@
     <!-- MENU -->
     <!-- It is a script to insert the content of the nav.html file
     The nav.html declares the navigation bar -->
-    <script id="replace_with_navbar" src="nav.js"></script>
+    <!-- <script id="replace_with_navbar" src="nav.js"></script> -->
+    <!--Navigation bar-->
+    <div id="nav-placeholder">
+
+    </div>
+
+    <!-- <script>
+    $(function(){
+        console.log("load nav.html");
+        $("#nav-placeholder").load("nav.html");
+    });
+    </script> -->
+
+    <script>
+        $.get("nav.html", function(data){
+            $("#nav-placeholder").replaceWith(data);
+        });
+    </script>
+    <!--end of Navigation bar-->
 
     <!-- HEADER: GeoMundus Conference Presentation -->
     <section id="header" text-align="center">
