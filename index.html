@@ -85,25 +85,10 @@
 <body class="home-page">
 
     <!-- MENU -->
-    <!-- It is a script to insert the content of the nav.html file
-    The nav.html declares the navigation bar -->
-    <!-- <script id="replace_with_navbar" src="nav.js"></script> -->
-        <!-- <script>
-    $(function(){
-        console.log("load nav.html");
-        $("#nav-placeholder").load("nav.html");
-    });
-    </script> -->
-
-    <!--Navigation bar-->
+    <!-- The nav-placeholder has its content inserted by the main.js script.
+    The content is a <nav> described in the nav.html file -->
     <div id="nav-placeholder">
     </div>
-    <script>
-        $.get("nav.html", function(data){
-            $("#nav-placeholder").replaceWith(data);
-        });
-    </script>
-    <!--end of Navigation bar-->
 
     <!-- HEADER: GeoMundus Conference Presentation -->
     <section id="header" text-align="center">

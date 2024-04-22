@@ -1,3 +1,8 @@
+// Insert the content of the nav.html into items with the id='nav-placeholder'
+$.get("nav.html", function (data) {
+  $("#nav-placeholder").replaceWith(data);
+});
+
 // Mobile menu: Show or hide items
 $(document).ready(function () {
   $(".toggle").on("click", function (e) {
