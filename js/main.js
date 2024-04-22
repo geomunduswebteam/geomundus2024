@@ -19,6 +19,9 @@ $(document).ready(function () {
   });
   $(".menu>li,.menu>a").click(function () {
     console.log(this);
+    // For some reason, when the menu opens, a style is added to every element
+    // of the class 'item' and as a consequence, the menu would not close.
+    // To fix that, we remove the style from the items.
     if ($(this).hasClass("toggle")) {
       $(".item").removeAttr("style");
     }
@@ -28,30 +31,24 @@ $(document).ready(function () {
 
 // Show speakers information in homepage when pressing +
 function show(dv) {
-  console.log("Show spearker");
   // The max number of speakers is 9.
   // This number is based on previous implementation. We don't have any deep explanation for that.
   if (dv > 9) return;
 
   let keynote = "keynote-" + dv;
   let speaker = "speaker-" + dv;
-  console.log(keynote);
-  console.log(speaker);
   document.getElementById(keynote).style.display = "block";
   document.getElementById(speaker).style.display = "none";
 }
 
 // Hide speakers information in homepage when pressing -
 function hide(dv) {
-  console.log("Hide speaker");
   // The max number of speakers is 9.
   // This number is based on previous implementation. We don't have any deep explanation for that.
   if (dv > 9) return;
 
   let keynote = "keynote-" + dv;
   let speaker = "speaker-" + dv;
-  console.log(keynote);
-  console.log(speaker);
   document.getElementById(keynote).style.display = "none";
   document.getElementById(speaker).style.display = "block";
 }
