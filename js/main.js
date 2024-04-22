@@ -14,10 +14,12 @@ $(document).ready(function () {
 // All menus: Show or hide dropdown items
 $(document).ready(function () {
   $(".menu>.has-dropdown").click(function () {
+    console.log("click menu has dropdown");
     $(this).find(".main-menu-dropdown").slideToggle();
     $(this).find(".main-menu-dropdown>li>a").css("float", "none");
   });
   $(".menu>li,.menu>a").click(function () {
+    console.log("click menu li or a");
     console.log(this);
     // For some reason, when the menu opens, a style is added to every element
     // of the class 'item' and as a consequence, the menu would not close.
