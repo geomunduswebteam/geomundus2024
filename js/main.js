@@ -1,118 +1,66 @@
+// Insert the content of the nav.html into items with the id='nav-placeholder'
+$.get("nav.html", function (data) {
+  $("#nav-placeholder").replaceWith(data);
+});
+
 // Mobile menu: Show or hide items
-$(document).ready(
-    function() {
-        $(".toggle").on("click", function(e) {
-            if ($(".item").hasClass("active")) {
-                $(".item").removeClass("active");
-                $('.menu .item').slideDown(500);
-            } 
-            else {
-                $(".item").addClass("active");
-            }
-            e.preventDefault();
-        });
+$(document).ready(function () {
+  $(".toggle").on("click", function (e) {
+    if ($(".item").hasClass("active")) {
+      $(".item").removeClass("active");
+      $(".menu .item").slideDown(500);
+    } else {
+      $(".item").addClass("active");
+    }
+    e.preventDefault();
+  });
 });
 
 // All menus: Show or hide dropdown items
-$(document).ready(
-    function(){
-    $('.menu>.has-dropdown').click(
-            function(){
-            $(this).find('.main-menu-dropdown').slideToggle();
-            $(this).find('.main-menu-dropdown>li>a').css("float", "none");
-    });
-    $('.menu>li,.menu>a').click(
-        function(){
-            console.log(this);
-            $(this).siblings('.has-dropdown').find('.main-menu-dropdown').slideUp();
-        }
-    );
+$(document).ready(function () {
+  $(".menu>.has-dropdown").click(function () {
+    console.log("click menu has dropdown");
+    $(this).find(".main-menu-dropdown").slideToggle();
+    $(this).find(".main-menu-dropdown>li>a").css("float", "none");
+  });
+  $(".menu>li,.menu>a").click(function () {
+    console.log("click menu li or a");
+    console.log(this);
+    // For some reason, when the menu opens, a style is added to every element
+    // of the class 'item' and as a consequence, the menu would not close.
+    // To fix that, we remove the style from the items.
+    if ($(this).hasClass("toggle")) {
+      $(".item").removeAttr("style");
+    }
+    $(this).siblings(".has-dropdown").find(".main-menu-dropdown").slideUp();
+  });
 });
 
 // Show speakers information in homepage when pressing +
-function show(dv){
+function show(dv) {
+  // The max number of speakers is 9.
+  // This number is based on previous implementation. We don't have any deep explanation for that.
+  if (dv > 9) return;
 
-    if(dv == '1'){
-        document.getElementById("keynote-1").style.display = "block";
-        document.getElementById("speaker-1").style.display = "none";
-    }
-    else if(dv == '2'){
-        document.getElementById("keynote-2").style.display = "block";
-        document.getElementById("speaker-2").style.display = "none";
-    }
-    else if(dv == '3'){
-        document.getElementById("keynote-3").style.display = "block";
-        document.getElementById("speaker-3").style.display = "none";
-    }
-    else if(dv == '4'){
-        document.getElementById("keynote-4").style.display = "block";
-        document.getElementById("speaker-4").style.display = "none";
-    }
-    else if(dv == '5'){
-        document.getElementById("keynote-5").style.display = "block";
-        document.getElementById("speaker-5").style.display = "none";
-    }
-    else if(dv == '6'){
-        document.getElementById("keynote-6").style.display = "block";
-        document.getElementById("speaker-6").style.display = "none";
-    }
-    else if(dv == '7'){
-        document.getElementById("keynote-7").style.display = "block";
-        document.getElementById("speaker-7").style.display = "none";
-    }
-    else if(dv == '8'){
-        document.getElementById("keynote-8").style.display = "block";
-        document.getElementById("speaker-8").style.display = "none";
-    }
-    else if(dv == '9'){
-        document.getElementById("keynote-9").style.display = "block";
-        document.getElementById("speaker-9").style.display = "none";
-    }
+  let keynote = "keynote-" + dv;
+  let speaker = "speaker-" + dv;
+  document.getElementById(keynote).style.display = "block";
+  document.getElementById(speaker).style.display = "none";
 }
 
 // Hide speakers information in homepage when pressing -
-function hide(dv){
+function hide(dv) {
+  // The max number of speakers is 9.
+  // This number is based on previous implementation. We don't have any deep explanation for that.
+  if (dv > 9) return;
 
-    if(dv == '1'){
-        document.getElementById("keynote-1").style.display = "none";
-        document.getElementById("speaker-1").style.display = "block";
-    }
-    else if(dv == '2'){
-        document.getElementById("keynote-2").style.display = "none";
-        document.getElementById("speaker-2").style.display = "block";
-    }
-    else if(dv == '3'){
-        document.getElementById("keynote-3").style.display = "none";
-        document.getElementById("speaker-3").style.display = "block";
-    }
-    else if(dv == '4'){
-        document.getElementById("keynote-4").style.display = "none";
-        document.getElementById("speaker-4").style.display = "block";
-    }
-    else if(dv == '5'){
-        document.getElementById("keynote-5").style.display = "none";
-        document.getElementById("speaker-5").style.display = "block";
-    }
-    else if(dv == '6'){
-        document.getElementById("keynote-6").style.display = "none";
-        document.getElementById("speaker-6").style.display = "block";
-    }
-    else if(dv == '7'){
-        document.getElementById("keynote-7").style.display = "none";
-        document.getElementById("speaker-7").style.display = "block";
-    }
-    else if(dv == '8'){
-        document.getElementById("keynote-8").style.display = "none";
-        document.getElementById("speaker-8").style.display = "block";
-    }
-    else if(dv == '9'){
-        document.getElementById("keynote-9").style.display = "none";
-        document.getElementById("speaker-9").style.display = "block";
-    }
+  let keynote = "keynote-" + dv;
+  let speaker = "speaker-" + dv;
+  document.getElementById(keynote).style.display = "none";
+  document.getElementById(speaker).style.display = "block";
 }
 
 // Map
-
 
 /*
 // Not necessary this year: alert banner
@@ -165,8 +113,6 @@ function hide(dv){
     })
 
 */
-
-
 
 /*
 var map;
