@@ -15,6 +15,18 @@
     <link rel="stylesheet" type="text/css" href="assets/css/gallery.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/elastislide.css" />
     <script src="https://kit.fontawesome.com/b37653d681.js"></script>
+    <!-- A script to insert the footer.html content into the foorter-end element -->
+    <script>
+        fetch("footer.html")
+        .then(response => response.text())
+        .then(data => {
+            const footerElement = document.getElementById("footer-end");
+            footerElement.innerHTML = data;
+        })
+        .catch(error => {
+            console.error("Error fetching footer content:", error);
+        });
+    </script>
 </head>
 
 <body>
@@ -211,25 +223,7 @@
 	</section>
 
     <!-- Footer: SOCIAL NETWORKS -->
-    <section id="footer">
-        <div class="container">
-            <br>
-            <section id="social_networks">
-                <ul class="icons">
-                    <li><a href="https://twitter.com/geomundus_conf" class="icon alt fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
-                    <li><a href="https://www.facebook.com/geomundus/?fref=ts" class="icon alt fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
-                    <li><a href="https://www.instagram.com/geomundus_conference/" class="icon alt fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
-                    <li><a href="https://github.com/erasmus-mundus-geotech-master/" class="icon alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
-                    <li><a href="https://www.linkedin.com/in/geomundus-team-6b3b8b23a/" class="icon alt fa-linkedin" target="_blank"><span class="label">GitHub</span></a></li>
-            </ul>
-            </section>
-    
-            <ul class="copyright">
-                <li><a href="https://github.com/erasmus-mundus-geotech-master/Geomundus2021" target="_blank"> &copy; GeoMundus 2024</a></li>
-                <li>Designed by GeoMundus Web Team</li>
-            </ul>
-        </div>
-    </section>
+    <footer id = "footer-end" style="height:5rem"></footer>
 
 </body>
 </html>
