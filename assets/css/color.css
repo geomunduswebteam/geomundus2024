@@ -1,7 +1,7 @@
 :root {
     --cp-black: #000000;
-    --cp-white: #FFFFFF;
-    --cp-dark: #264059;
-    --cp-mid: #6EA0B1;
-    --cp-light: #E5690B;
+    --cp-white: #ADC6C6; /*Ash gray*/
+    --cp-dark: #134C4B;  /*Primary Color*/
+    --cp-mid: #3E9699; /*Dark Cyan*/
+    --cp-light: #C8573C; /*Jasper*/
 }
