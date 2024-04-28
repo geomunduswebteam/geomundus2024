@@ -1,5 +1,5 @@
 /**
- * Functions related to the navigation bar and to the speakers cards.
+ * This file contains functions related to the navigation bar and to the speakers cards.
  */
 
 // ----------------------------NEW CODE----------------------------------------------//
