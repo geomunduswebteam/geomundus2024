@@ -1,10 +1,17 @@
+/**
+ * Functions related to the navigation bar and to the speakers cards.
+ */
+
 // ----------------------------NEW CODE----------------------------------------------//
 $(document).ready(function () {
     // Load the content of nav.html into the element with the ID 'nav-placeholder'
     $.get("nav.html", function (data) {
       $("#nav-placeholder").replaceWith(data);
   
+      // Set behavior when the user clicks the navigation bar
       // Attach event listeners after loading the navigation content
+  
+      // Mobile menu: Show or hide items (navigation tabs)
       $(".toggle").on("click", function (e) {
         if ($(".item").hasClass("active")) {
           $(".item").removeClass("active");
@@ -15,20 +22,22 @@ $(document).ready(function () {
         e.preventDefault();
       });
   
+      // All menus: Show or hide dropdown items (in the navigation bar)
       $(".menu>.has-dropdown").click(function () {
         $(this).find(".main-menu-dropdown").slideToggle();
       });
   
       $(".menu>li, .menu>a").click(function () {
+        // For some reason, when the menu opens, a style is added to every element
+        // of the class 'item' and, as a consequence, the menu would not close.
+        // To fix that, we remove the style from the items.
         if ($(this).hasClass("toggle")) {
           $(".item").removeAttr("style");
         }
         $(this).siblings(".has-dropdown").find(".main-menu-dropdown").slideUp();
       });
     });
-  });
-  
-
+});
 
 // ---------------------------OLD CODE -----------------------------------//
 // Insert the content of the nav.html into items with the id='nav-placeholder'
@@ -69,9 +78,7 @@ $(document).ready(function () {
 //   });
 // });
 
-
 // --------------------------------End of Old Code -------------------------------
-
 
 // Show speakers information in homepage when pressing +
 function show(dv) {
