@@ -2723,8 +2723,18 @@ textarea {
 }
 
 .sponsor-circle {
-    width: 150px;
-    height: 150px;
+    max-height: 160px;
+    max-width: 160px;
+    width: 160px;
+    height: auto;
+    padding: 5%;
+    vertical-align: middle;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
 }
 
 .sponsor-circle-div {
@@ -2739,6 +2749,7 @@ textarea {
     margin-top: 20px;
     align-items: center;
     justify-content: center; 
+    overflow: hidden;
 }
 
 .gold{

@@ -2,6 +2,35 @@
  * This file contains functions related to the navigation bar and to the speakers cards.
  */
 
+// SponsorCard list. category options are gold, silver and bronze.
+const sponsors = [
+  {
+    url: "https://www.esri.com/en-us/home",
+    imgsrc: "images/partners/esri-new.png",
+    category: "gold",
+    style: "padding: 20px; width:160px; height:110px; margin:30px 0px;",
+  },
+  {
+    url: "https://www.con-terra.com/",
+    imgsrc: "images/sponsors/Logo_con-terra.png",
+    category: "gold",
+    style: "padding: 20px",
+  },
+  {
+    url: "https://52north.org/",
+    imgsrc: "images/sponsors/Logo_52North.png",
+    category: "silver",
+    style: "padding: 20px",
+  },
+  {
+    url: "",
+    imgsrc: "images/sponsors/Become_our_sponsor.png",
+    category: "gold",
+    style: "width: 160px; height: auto; align-items: center; margin-top: 3px;",
+  },
+];
+
+console.log("try");
 // ----------------------------NEW CODE----------------------------------------------//
 $(document).ready(function () {
   // Load the content of nav.html into the element with the ID 'nav-placeholder'
@@ -39,42 +68,46 @@ $(document).ready(function () {
   });
 });
 
-// ---------------------------OLD CODE -----------------------------------//
+document.addEventListener("DOMContentLoaded", () => {
+  addSponsorsCards();
+});
 
-// // Mobile menu: Show or hide items
-// $(document).ready(function () {
-//   $(".toggle").on("click", function (e) {
-//     if ($(".item").hasClass("active")) {
-//       $(".item").removeClass("active");
-//       $(".menu .item").slideDown(500);
-//     } else {
-//       $(".item").addClass("active");
-//     }
-//     e.preventDefault();
-//   });
-// });
+function addSponsorsCards() {
+  let container = document.getElementById("sponsors-container");
 
-// // All menus: Show or hide dropdown items
-// $(document).ready(function () {
-//   $(".menu>.has-dropdown").click(function () {
-//     console.log("click menu has dropdown");
-//     $(this).find(".main-menu-dropdown").slideToggle();
-//     $(this).find(".main-menu-dropdown>li>a").css("float", "none");
-//   });
-//   $(".menu>li,.menu>a").click(function () {
-//     console.log("click menu li or a");
-//     console.log(this);
-//     // For some reason, when the menu opens, a style is added to every element
-//     // of the class 'item' and as a consequence, the menu would not close.
-//     // To fix that, we remove the style from the items.
-//     if ($(this).hasClass("toggle")) {
-//       $(".item").removeAttr("style");
-//     }
-//     $(this).siblings(".has-dropdown").find(".main-menu-dropdown").slideUp();
-//   });
-// });
+  sponsors.forEach((sponsor) => {
+    let div = createSponsorCard(sponsor);
+    container.appendChild(div);
+  });
+}
 
-// --------------------------------End of Old Code -------------------------------
+function createSponsorCard(sponsor) {
+  let div = document.createElement("div");
+  div.classList.add("sponsor-circle-div");
+  div.classList.add(sponsor.category);
+
+  let helperSpan = document.createElement("span");
+  helperSpan.classList.add("helper");
+
+  let img = document.createElement("img");
+  img.classList.add("sponsor-circle");
+  img.src = sponsor.imgsrc;
+
+  if (sponsor.url === "") {
+    div.appendChild(helperSpan);
+    div.appendChild(img);
+  } else {
+    let a = document.createElement("a");
+    a.href = sponsor.url;
+    a.target = "_blank";
+    a.appendChild(helperSpan);
+    a.appendChild(img);
+
+    div.appendChild(a);
+  }
+
+  return div;
+}
 
 // Show speakers information in homepage when pressing +
 function show(dv) {
