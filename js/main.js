@@ -41,25 +41,40 @@ $(document).ready(function () {
 
 // ---------------------------OLD CODE -----------------------------------//
 
-// All menus: Show or hide dropdown items
-$(document).ready(function () {
-  $(".menu>.has-dropdown").click(function () {
-    console.log("click menu has dropdown");
-    $(this).find(".main-menu-dropdown").slideToggle();
-    $(this).find(".main-menu-dropdown>li>a").css("float", "none");
-  });
-  $(".menu>li,.menu>a").click(function () {
-    console.log("click menu li or a");
-    console.log(this);
-    // For some reason, when the menu opens, a style is added to every element
-    // of the class 'item' and as a consequence, the menu would not close.
-    // To fix that, we remove the style from the items.
-    if ($(this).hasClass("toggle")) {
-      $(".item").removeAttr("style");
-    }
-    $(this).siblings(".has-dropdown").find(".main-menu-dropdown").slideUp();
-  });
-});
+// // Mobile menu: Show or hide items
+// $(document).ready(function () {
+//   $(".toggle").on("click", function (e) {
+//     if ($(".item").hasClass("active")) {
+//       $(".item").removeClass("active");
+//       $(".menu .item").slideDown(500);
+//     } else {
+//       $(".item").addClass("active");
+//     }
+//     e.preventDefault();
+//   });
+// });
+
+// // All menus: Show or hide dropdown items
+// $(document).ready(function () {
+//   $(".menu>.has-dropdown").click(function () {
+//     console.log("click menu has dropdown");
+//     $(this).find(".main-menu-dropdown").slideToggle();
+//     $(this).find(".main-menu-dropdown>li>a").css("float", "none");
+//   });
+//   $(".menu>li,.menu>a").click(function () {
+//     console.log("click menu li or a");
+//     console.log(this);
+//     // For some reason, when the menu opens, a style is added to every element
+//     // of the class 'item' and as a consequence, the menu would not close.
+//     // To fix that, we remove the style from the items.
+//     if ($(this).hasClass("toggle")) {
+//       $(".item").removeAttr("style");
+//     }
+//     $(this).siblings(".has-dropdown").find(".main-menu-dropdown").slideUp();
+//   });
+// });
+
+// --------------------------------End of Old Code -------------------------------
 
 // Show speakers information in homepage when pressing +
 function show(dv) {
