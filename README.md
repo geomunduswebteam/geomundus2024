@@ -7,9 +7,9 @@ This repository contains all the code of the <a href = "https://geomundus.org/20
 
 ## 2024 Web Team
 
-Chris Hubach
-Joseph Paintsil
-Rebeca Nunes Rodrigues
+Chris Hubach,
+Joseph Paintsil,
+Rebeca Nunes Rodrigues,
 Guilherme Viegas
 
 Based on the work of previous editions.
