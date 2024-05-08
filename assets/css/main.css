@@ -146,6 +146,8 @@ nav {
 .menu_logo {
     order: 0;
     height: 50px;
+    margin:0px;
+
 }
 
 ul.menu, ul.main-menu-dropdown {
