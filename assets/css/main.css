@@ -2723,18 +2723,15 @@ textarea {
 }
 
 .sponsor-circle {
-    max-height: 160px;
-    max-width: 160px;
-    width: 160px;
-    height: auto;
-    padding: 5%;
-    vertical-align: middle;
+    width: 150px;
+    height: 150px;
 }
 
-.helper {
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
+.invite-circle {
+    width: 165px;
+    height: auto;
+    align-items: center;
+    margin-top: 2px;
 }
 
 .sponsor-circle-div {

@@ -2,35 +2,6 @@
  * This file contains functions related to the navigation bar and to the speakers cards.
  */
 
-// SponsorCard list. category options are gold, silver and bronze.
-const sponsors = [
-  {
-    url: "https://www.esri.com/en-us/home",
-    imgsrc: "images/partners/esri-new.png",
-    category: "gold",
-    style: "padding: 20px; width:160px; height:110px; margin:30px 0px;",
-  },
-  {
-    url: "https://www.con-terra.com/",
-    imgsrc: "images/sponsors/Logo_con-terra.png",
-    category: "gold",
-    style: "padding: 20px",
-  },
-  {
-    url: "https://52north.org/",
-    imgsrc: "images/sponsors/Logo_52North.png",
-    category: "silver",
-    style: "padding: 20px",
-  },
-  {
-    url: "",
-    imgsrc: "images/sponsors/Become_our_sponsor.png",
-    category: "gold",
-    style: "width: 160px; height: auto; align-items: center; margin-top: 3px;",
-  },
-];
-
-console.log("try");
 // ----------------------------NEW CODE----------------------------------------------//
 $(document).ready(function () {
   // Load the content of nav.html into the element with the ID 'nav-placeholder'
@@ -66,14 +37,40 @@ $(document).ready(function () {
       $(this).siblings(".has-dropdown").find(".main-menu-dropdown").slideUp();
     });
   });
+
+  //   addSponsorsCards();
 });
 
-document.addEventListener("DOMContentLoaded", () => {
-  addSponsorsCards();
-});
+// SponsorCard list. category options are gold, silver and bronze.
+const sponsors = [
+  {
+    url: "https://www.esri.com/en-us/home",
+    imgsrc: "images/partners/esri-new.png",
+    category: "gold",
+    style: "padding: 20px; width:160px; height:110px; margin:30px 0px;",
+  },
+  {
+    url: "https://www.con-terra.com/",
+    imgsrc: "images/sponsors/Logo_con-terra.png",
+    category: "gold",
+    style: "padding: 20px",
+  },
+  {
+    url: "https://52north.org/",
+    imgsrc: "images/sponsors/Logo_52North.png",
+    category: "silver",
+    style: "padding: 20px",
+  },
+  {
+    url: "",
+    imgsrc: "images/sponsors/Become_our_sponsor.png",
+    category: "gold",
+    style: "width: 160px; height: auto; align-items: center; margin-top: 3px;",
+  },
+];
 
 function addSponsorsCards() {
-  let container = document.getElementById("sponsors-container");
+  //   let container = document.getElementById("sponsors-container");
 
   sponsors.forEach((sponsor) => {
     let div = createSponsorCard(sponsor);
@@ -82,30 +79,6 @@ function addSponsorsCards() {
 }
 
 function createSponsorCard(sponsor) {
-  let div = document.createElement("div");
-  div.classList.add("sponsor-circle-div");
-  div.classList.add(sponsor.category);
-
-  let helperSpan = document.createElement("span");
-  helperSpan.classList.add("helper");
-
-  let img = document.createElement("img");
-  img.classList.add("sponsor-circle");
-  img.src = sponsor.imgsrc;
-
-  if (sponsor.url === "") {
-    div.appendChild(helperSpan);
-    div.appendChild(img);
-  } else {
-    let a = document.createElement("a");
-    a.href = sponsor.url;
-    a.target = "_blank";
-    a.appendChild(helperSpan);
-    a.appendChild(img);
-
-    div.appendChild(a);
-  }
-
   return div;
 }
 
