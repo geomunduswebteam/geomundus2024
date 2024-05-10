@@ -2,7 +2,13 @@
  * This file contains functions related to the navigation bar and to the speakers cards.
  */
 
-// SponsorCard list. category options are gold, silver and bronze.
+/**
+ * SponsorCard list. Each sponsor card has:
+ * url - url to the sponsor's webpage. An empty url means it is an invitation card.
+ * imgsrc - the path to the logo's PNG file. The logo must have squared dimensions (width equal to height),
+ *          and have transparent background.
+ * category - gold, silver and bronze.
+ */
 const sponsors = [
   // {
   //   url: "https://www.esri.com/en-us/home",
@@ -26,7 +32,13 @@ const sponsors = [
   },
 ];
 
-// Media Partners list. category is always partner
+/**
+ * SponsorCard list. Each sponsor card has:
+ * url - url to the sponsor's webpage. An empty url means it is an invitation card.
+ * imgsrc - the path to the logo's PNG file. The logo must have squared dimensions (width equal to height),
+ *          and have transparent background.
+ * category - always partner
+ */
 const mediaPartners = [
   {
     url: "",
