@@ -478,6 +478,15 @@ ul.main-menu-dropdown li {
     }
 }
 
+/* temporary fix for the space between info section and speakers section */
+#speakers-line-up {
+    padding-top: 0%;
+}
+
+#info {
+    padding-bottom: 0%;
+}
+
 /* END: Home - Speakers */
 
 /* START: Home - Registration */
