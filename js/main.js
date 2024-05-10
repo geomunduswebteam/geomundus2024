@@ -33,8 +33,8 @@ const sponsors = [
 ];
 
 /**
- * SponsorCard list. Each sponsor card has:
- * url - url to the sponsor's webpage. An empty url means it is an invitation card.
+ * Media Partners list. Each media partner card has:
+ * url - url to the partner's webpage. An empty url means it is an invitation card.
  * imgsrc - the path to the logo's PNG file. The logo must have squared dimensions (width equal to height),
  *          and have transparent background.
  * category - always partner
