@@ -26,17 +26,17 @@ print("Downloading all files...")
 # WebDriverWait(driver, 1000000).until(EC.element_to_be_clickable((By.XPATH, "(//div[.= 'Fazer download de tudo'])[3]"))).click()
 
 ### German
-#WebDriverWait(driver, 1000000).until(EC.element_to_be_clickable((By.XPATH, "(//div[.= 'Alle herunterladen'])[3]"))).click()
+WebDriverWait(driver, 300).until(EC.element_to_be_clickable((By.XPATH, "(//div[.= 'Alle herunterladen'])[3]"))).click()
 
 ### English
-WebDriverWait(driver, 1000000).until(EC.element_to_be_clickable((By.XPATH, "(//div[.= 'Download all'])[3]"))).click()
+# WebDriverWait(driver, 1000000).until(EC.element_to_be_clickable((By.XPATH, "(//div[.= 'Download all'])[3]"))).click()
 
 # todo: wait until download is finished. Use awaitUntil an object related to the download is displayed.
 # with this approach we would not need to wait 20 seconds
 
 # Wait 30 seconds before closing the browser
-print("Waiting 30 seconds before closing the browser...")
-sleep(30)
+print("Waiting 2 minutes before closing the browser...")
+sleep(120)
 print("Closing the browser...")
 driver.close()
 driver.quit()
