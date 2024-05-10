@@ -2,6 +2,39 @@
  * This file contains functions related to the navigation bar and to the speakers cards.
  */
 
+// SponsorCard list. category options are gold, silver and bronze.
+const sponsors = [
+  // {
+  //   url: "https://www.esri.com/en-us/home",
+  //   imgsrc: "images/sponsors/esri-new.png",
+  //   category: "gold",
+  // },
+  // {
+  //   url: "https://www.con-terra.com/",
+  //   imgsrc: "images/sponsors/Logo_con-terra.png",
+  //   category: "gold",
+  // },
+  // {
+  //   url: "https://52north.org/",
+  //   imgsrc: "images/sponsors/Logo_52North.png",
+  //   category: "silver",
+  // },
+  {
+    url: "",
+    imgsrc: "images/sponsors/Become_our_sponsor.png",
+    category: "gold",
+  },
+];
+
+// Media Partners list. category is always partner
+const mediaPartners = [
+  {
+    url: "",
+    imgsrc: "images/sponsors/Become_our_media_partner.png",
+    category: "partner",
+  },
+];
+
 // ----------------------------NEW CODE----------------------------------------------//
 $(document).ready(function () {
   // Load the content of nav.html into the element with the ID 'nav-placeholder'
@@ -38,43 +71,58 @@ $(document).ready(function () {
     });
   });
 
-  //   addSponsorsCards();
+  addOrganizationCards();
 });
 
-// SponsorCard list. category options are gold, silver and bronze.
-const sponsors = [
-  {
-    url: "https://www.esri.com/en-us/home",
-    imgsrc: "images/sponsors/esri-new.png",
-    category: "gold",
-  },
-  {
-    url: "https://www.con-terra.com/",
-    imgsrc: "images/sponsors/Logo_con-terra.png",
-    category: "gold",
-  },
-  {
-    url: "https://52north.org/",
-    imgsrc: "images/sponsors/Logo_52North.png",
-    category: "silver",
-  },
-  {
-    url: "",
-    imgsrc: "images/sponsors/Become_our_sponsor.png",
-    category: "gold",
-  },
-];
+function addOrganizationCards() {
+  addSponsorsCards();
+  addMediaPartnersCards();
+}
 
 function addSponsorsCards() {
-  //   let container = document.getElementById("sponsors-container");
-
+  let container = document.getElementById("sponsors-container");
   sponsors.forEach((sponsor) => {
-    let div = createSponsorCard(sponsor);
+    let div = createOrganizationCard(sponsor);
     container.appendChild(div);
   });
 }
 
-function createSponsorCard(sponsor) {
+function addMediaPartnersCards() {
+  let container = document.getElementById("media-partner-container");
+  mediaPartners.forEach((partner) => {
+    let div = createOrganizationCard(partner);
+    container.appendChild(div);
+  });
+}
+
+/**
+ * Create an HTML element to present an organization card or a invitation card (to become a partner or a sponsor)
+ * @param {*} organization - it is a sponsor or a media partner
+ * @returns an HTML element in this structure <div><a><img></a></div> or <div><img></div>
+ */
+function createOrganizationCard(organization) {
+  let div = document.createElement("div");
+  div.classList.add("sponsor-circle-div");
+  div.classList.add(organization.category);
+
+  let img = document.createElement("img");
+  img.src = organization.imgsrc;
+
+  if (organization.url === "") {
+    img.classList.add("invite-circle");
+    // create an image without a link <div><img></div>
+    div.appendChild(img);
+  } else {
+    // create a clickable image <div><a><img></a></div>
+    img.classList.add("sponsor-circle");
+    let a = document.createElement("a");
+    a.href = organization.url;
+    a.target = "_blank";
+    a.appendChild(img);
+
+    div.appendChild(a);
+  }
+
   return div;
 }
 
