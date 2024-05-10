@@ -45,27 +45,23 @@ $(document).ready(function () {
 const sponsors = [
   {
     url: "https://www.esri.com/en-us/home",
-    imgsrc: "images/partners/esri-new.png",
+    imgsrc: "images/sponsors/esri-new.png",
     category: "gold",
-    style: "padding: 20px; width:160px; height:110px; margin:30px 0px;",
   },
   {
     url: "https://www.con-terra.com/",
     imgsrc: "images/sponsors/Logo_con-terra.png",
     category: "gold",
-    style: "padding: 20px",
   },
   {
     url: "https://52north.org/",
     imgsrc: "images/sponsors/Logo_52North.png",
     category: "silver",
-    style: "padding: 20px",
   },
   {
     url: "",
     imgsrc: "images/sponsors/Become_our_sponsor.png",
     category: "gold",
-    style: "width: 160px; height: auto; align-items: center; margin-top: 3px;",
   },
 ];
 
