@@ -449,7 +449,7 @@ ul.main-menu-dropdown li {
 
 #speakers-line-up .speaker-location {
     font-size: 18px;
-    color: #257ac0;
+    color: var(--cp-dark);
 }
 
 @media screen and (min-width: 768px) { 
