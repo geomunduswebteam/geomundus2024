@@ -4,7 +4,7 @@
 @import url("color.css");
 
 @import url("font-awesome.min.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..400;1,300..400&display=swap");
 
 /*
 	Photon by HTML5 UP
@@ -263,7 +263,7 @@ ul.main-menu-dropdown li {
     .presentation_logo{
         vertical-align: middle; 
         margin-top: 80px;
-        height: 100px;
+        height: 25rem;
     }
 }
 
@@ -271,7 +271,7 @@ ul.main-menu-dropdown li {
     .presentation_logo{
         vertical-align: middle; 
         margin-top: 40px;
-        height: 65px;
+        height: 12rem;
     }
 }
 
@@ -449,7 +449,7 @@ ul.main-menu-dropdown li {
 
 #speakers-line-up .speaker-location {
     font-size: 18px;
-    color: #257ac0;
+    color: var(--cp-dark);
 }
 
 @media screen and (min-width: 768px) { 
@@ -476,6 +476,15 @@ ul.main-menu-dropdown li {
     #speakers-line-up .speaker-img img{
         width: 180px;
     }
+}
+
+/* temporary fix for the space between info section and speakers section */
+#speakers-line-up {
+    padding-top: 0%;
+}
+
+#info {
+    padding-bottom: 0%;
 }
 
 /* END: Home - Speakers */
@@ -2265,7 +2274,7 @@ input,
 select,
 textarea {
     color: #666;
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 16pt;
     font-weight: normal;
     line-height: 1.65em;
@@ -2276,8 +2285,12 @@ a {
     -webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
     -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
     transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-    color: inherit;
+    color: var(--cp-light);
     text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .location_ul{margin-top: 5%;}
