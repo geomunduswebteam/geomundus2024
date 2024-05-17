@@ -3553,6 +3553,7 @@ table.alt tfoot {
     margin: 0 2px 0 0;
     padding: 0 1.2px;
     line-height: 32px;
+    color: white;
     background: var(--cp-mid);
     text-align: center;
     border-radius: 5px 5px 0 0;
@@ -3564,6 +3565,7 @@ table.alt tfoot {
 
 .css3-tabstrip input[type="radio"]:checked+label {
     z-index: 1;
+    color: var(--cp-dark);
     background: #fff;
     border-bottom-color: #fff;
     cursor: default;
