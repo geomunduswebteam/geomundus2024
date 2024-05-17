@@ -2735,9 +2735,23 @@ textarea {
     
 }
 
+#nova-ims-logo {
+    padding: 20px;
+}
+
 .sponsor-circle {
     width: 150px;
-    height: 150px;
+    height: auto;
+    padding: 5px;
+    align-items: center;
+    margin-top: 2px;
+}
+
+.invite-circle {
+    width: 165px;
+    height: auto;
+    align-items: center;
+    margin-top: 2px;
 }
 
 .sponsor-circle-div {
@@ -2752,6 +2766,7 @@ textarea {
     margin-top: 20px;
     align-items: center;
     justify-content: center; 
+    overflow: hidden;
 }
 
 .gold{
