@@ -84,11 +84,34 @@ $(document).ready(function () {
   });
 
   addOrganizationCards();
+  setRegistrationPage();
 });
 
+/**
+ * Toggle visibility of the registration form on clicking the registration button
+ */
+function setRegistrationPage() {
+  let button = document.getElementById("registrationButton");
+  let form = document.getElementById("registrationForm");
+  let iframe = document.getElementById("registrationFrame");
+
+  button.addEventListener("click", () => {
+    const currentVisibility = window.getComputedStyle(form).visibility;
+    if (currentVisibility === "hidden") {
+      form.style.visibility = "visible";
+      form.appendChild(iframe);
+    } else {
+      form.style.visibility = "hidden";
+      form.removeChild();
+    }
+  });
+}
+
 function addOrganizationCards() {
-  addSponsorsCards();
-  addMediaPartnersCards();
+  if (document.body.classList.contains("home-page")) {
+    addSponsorsCards();
+    addMediaPartnersCards();
+  }
 }
 
 function addSponsorsCards() {
