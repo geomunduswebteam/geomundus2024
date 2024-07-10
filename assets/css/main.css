@@ -420,6 +420,10 @@ ul.main-menu-dropdown li {
     color: white;
 }
 
+.speaker-more > a:hover, .speaker-less > a:hover {
+    text-decoration: none;
+}
+
 #speakers-line-up .speaker-less {
     color: black;
 }
