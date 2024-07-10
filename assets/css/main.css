@@ -518,14 +518,10 @@ ul.main-menu-dropdown li {
     width: 100%;
 }
 
-.speaker-main-box a{
-    color: black;
+.speaker-main-box h3{
+    color: black !important;
     text-align:center;
     font-weight: bolder !important;
-}
-
-.speaker-main-box a:hover{
-    color: rgb(46,98,124);
 }
 
 .speaker-main-box-blue {
@@ -538,13 +534,14 @@ ul.main-menu-dropdown li {
 
 .speaker-main-box-blue a{
     color: white;
-text-align:center;
+    text-align:center;
     font-weight: bolder;
 
 }
 
 .speaker-main-box-blue a:hover{
-    color: rgb(46,98,124);
+    text-decoration: none;
+    /* color: rgb(46,98,124); */
 }
 
 /* END: Main - Speakers */
