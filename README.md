@@ -13,3 +13,20 @@ Rebeca Nunes Rodrigues,
 Guilherme Viegas
 
 Based on the work of previous editions.
+
+--
+
+The GeoMundus server is a GNU/Linux Ubuntu 24.04 LTS machine, which can be accessed following the steps bellow:
+
+ssh geomundus@giv-hosting.uni-muenster.de
+Enter the GeoMundus password
+
+curl ifconfig.me
+128.176.130.196
+
+--
+
+Regarding the Docker approach, we have tried to implement it in our current web server (VirtualMin), but it doesn't seem to work well with a microservices approach. Thus, in order not to take the risk of making our website unavailable at this particular sensitive moment, we decided to keep Docker only in the Stage environment for now, and document all the progress and knowledge we gather with these tools.
+
+docker build -t my-php-app -f php.Dockerfile ..
+docker run -d -p 81:80  -f php.Dockerfile ..
