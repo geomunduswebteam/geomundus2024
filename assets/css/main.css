@@ -2790,6 +2790,7 @@ textarea {
 
 .bronze{
     border: 6px solid #CD7F32;
+    margin: 0px 0px 0px 100px;
 }
 
 .bronze:hover {
